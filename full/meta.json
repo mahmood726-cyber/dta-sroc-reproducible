@@ -1,0 +1,36 @@
+{
+ "mode": "full",
+ "all_ok": true,
+ "when": "2026-10-04 22:51 UTC",
+ "sha": "0140f4fb532a14d9ccecc8e54d66bb1039613be8",
+ "run_id": "37241419816",
+ "run_url": "https://github.com/mahmood726-cyber/dta-sroc-reproducible/actions/runs/37241419816",
+ "platforms": [
+  {
+   "platform": "Docker (canonical)",
+   "artifact": "full-docker",
+   "ok": true,
+   "summary": "53/53 numbers reproduced"
+  },
+  {
+   "platform": "Linux",
+   "artifact": "full-ubuntu-latest",
+   "ok": true,
+   "summary": "53/53 numbers reproduced"
+  },
+  {
+   "platform": "Windows",
+   "artifact": "full-windows-latest",
+   "ok": true,
+   "summary": "53/53 numbers reproduced"
+  },
+  {
+   "platform": "macOS",
+   "artifact": "full-macos-latest",
+   "ok": true,
+   "summary": "53/53 numbers reproduced"
+  }
+ ],
+ "compare": "success",
+ "mode_note": "Full validation: every number in the paper."
+}
