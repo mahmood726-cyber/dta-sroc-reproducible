@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "dta-sroc-reproducible: the allmeta DTA SROC app (bivariate meta-analysis of diagnostic test accuracy), validated against R mada"
+message: "If you use this software or validation, please cite it using the metadata below, and cite mada and the original dataset authors."
+type: software
+authors:
+  - family-names: Ahmad
+    given-names: Mahmood
+repository-code: "https://github.com/mahmood726-cyber/dta-sroc-reproducible"
+license: MIT
+version: 1.0.0
+keywords:
+  - diagnostic test accuracy
+  - bivariate meta-analysis
+  - summary ROC curve
+  - mada
+  - software validation
+  - reproducibility
+references:
+  - type: software
+    title: "allmeta — open browser-only tools for evidence synthesis"
+    authors:
+      - family-names: Ahmad
+        given-names: Mahmood
+    doi: 10.5281/zenodo.20516880

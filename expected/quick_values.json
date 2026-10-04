@@ -1,0 +1,45 @@
+{
+ "source": "Canonical run (quick mode): values as printed in the paper.",
+ "values": {
+  "datasets": {
+   "value": 2,
+   "decimals": 0
+  },
+  "configurations": {
+   "value": 30,
+   "decimals": 0
+  },
+  "mada_fitted": {
+   "value": 25,
+   "decimals": 0
+  },
+  "refusals_matched": {
+   "value": 5,
+   "decimals": 0
+  },
+  "all_within_tolerance": {
+   "value": 1,
+   "decimals": 0
+  },
+  "reml_ml_below_1e-6": {
+   "value": 1,
+   "decimals": 0
+  },
+  "derived_below_1e-6": {
+   "value": 1,
+   "decimals": 0
+  },
+  "ex_sens": {
+   "value": 0.891,
+   "decimals": 3
+  },
+  "ex_spec": {
+   "value": 0.78,
+   "decimals": 3
+  },
+  "ex_auc": {
+   "value": 0.887,
+   "decimals": 3
+  }
+ }
+}

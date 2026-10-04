@@ -1,0 +1,239 @@
+{
+ "source": "Local full run (Windows, R 4.6.0, mada 0.5.12, Node 24.15.0) at allmeta 76d3e9d; CI confirms on Linux, Windows, macOS and Docker",
+ "numbers": [
+  {
+   "quantity": "Datasets distributed with mada",
+   "printed": "6",
+   "stats_key": "datasets",
+   "value": 6
+  },
+  {
+   "quantity": "Two-by-two tables in those datasets",
+   "printed": "159",
+   "stats_key": "studies_total",
+   "value": 159
+  },
+  {
+   "quantity": "Tables with a zero cell",
+   "printed": "18",
+   "stats_key": "zero_cell_studies",
+   "value": 18
+  },
+  {
+   "quantity": "Method x correction x covariate configurations",
+   "printed": "105",
+   "stats_key": "configurations",
+   "value": 105
+  },
+  {
+   "quantity": "Configurations agreeing",
+   "printed": "105",
+   "stats_key": "within_tolerance",
+   "value": 105
+  },
+  {
+   "quantity": "Configurations mada fits",
+   "printed": "80",
+   "stats_key": "mada_fitted",
+   "value": 80
+  },
+  {
+   "quantity": "Configurations mada refuses",
+   "printed": "25",
+   "stats_key": "mada_refused",
+   "value": 25
+  },
+  {
+   "quantity": "Refusals the app matches",
+   "printed": "25",
+   "stats_key": "refusals_matched",
+   "value": 25
+  },
+  {
+   "quantity": "Meta-regression configurations",
+   "printed": "15",
+   "stats_key": "meta_regression_configurations",
+   "value": 15
+  },
+  {
+   "quantity": "Individual checks",
+   "printed": "855",
+   "stats_key": "checks_total",
+   "value": 855
+  },
+  {
+   "quantity": "Individual checks passed",
+   "printed": "855",
+   "stats_key": "checks_passed",
+   "value": 855
+  },
+  {
+   "quantity": "MM / VC / fixed-effect estimates within 10^-12",
+   "printed": "yes",
+   "stats_key": "fixed_mm_vc_below_1e-12",
+   "value": 1
+  },
+  {
+   "quantity": "REML / ML estimates within 10^-6",
+   "printed": "yes",
+   "stats_key": "reml_ml_below_1e-6",
+   "value": 1
+  },
+  {
+   "quantity": "Log-likelihoods within 10^-9 (well inside the 10^-6 required)",
+   "printed": "yes",
+   "stats_key": "loglik_below_1e-9",
+   "value": 1
+  },
+  {
+   "quantity": "Derived quantities within 10^-6",
+   "printed": "yes",
+   "stats_key": "derived_below_1e-6",
+   "value": 1
+  },
+  {
+   "quantity": "Moses-Littenberg comparisons",
+   "printed": "18",
+   "stats_key": "moses_cases",
+   "value": 18
+  },
+  {
+   "quantity": "Moses-Littenberg comparisons agreeing",
+   "printed": "18",
+   "stats_key": "moses_agree",
+   "value": 18
+  },
+  {
+   "quantity": "Worked example: studies",
+   "printed": "14",
+   "stats_key": "ex_k",
+   "value": 14
+  },
+  {
+   "quantity": "Worked example: sensitivity",
+   "printed": "0.891",
+   "stats_key": "ex_sens",
+   "value": 0.8908781240867581
+  },
+  {
+   "quantity": "Worked example: sensitivity lower 95% limit",
+   "printed": "0.808",
+   "stats_key": "ex_sens_lo",
+   "value": 0.8080775180531692
+  },
+  {
+   "quantity": "Worked example: sensitivity upper 95% limit",
+   "printed": "0.941",
+   "stats_key": "ex_sens_hi",
+   "value": 0.9405829183024927
+  },
+  {
+   "quantity": "Worked example: specificity",
+   "printed": "0.780",
+   "stats_key": "ex_spec",
+   "value": 0.7796608273310168
+  },
+  {
+   "quantity": "Worked example: specificity lower 95% limit",
+   "printed": "0.715",
+   "stats_key": "ex_spec_lo",
+   "value": 0.7154510029870025
+  },
+  {
+   "quantity": "Worked example: specificity upper 95% limit",
+   "printed": "0.833",
+   "stats_key": "ex_spec_hi",
+   "value": 0.8327681659205924
+  },
+  {
+   "quantity": "Worked example: mada sensitivity",
+   "printed": "0.891",
+   "stats_key": "ex_mada_sens",
+   "value": 0.8908781240844446
+  },
+  {
+   "quantity": "Worked example: mada specificity",
+   "printed": "0.780",
+   "stats_key": "ex_mada_spec",
+   "value": 0.7796608273302881
+  },
+  {
+   "quantity": "Worked example: AUC",
+   "printed": "0.887",
+   "stats_key": "ex_auc",
+   "value": 0.8866793478269499
+  },
+  {
+   "quantity": "Worked example: LR+",
+   "printed": "4.04",
+   "stats_key": "ex_lrpos",
+   "value": 4.043212622138368
+  },
+  {
+   "quantity": "Worked example: LR-",
+   "printed": "0.14",
+   "stats_key": "ex_lrneg",
+   "value": 0.1399607009714655
+  },
+  {
+   "quantity": "Worked example: REML logit-sensitivity variance",
+   "printed": "1.38",
+   "stats_key": "ex_reml_tau2_sens",
+   "value": 1.379582890775245
+  },
+  {
+   "quantity": "Worked example: ML logit-sensitivity variance",
+   "printed": "1.22",
+   "stats_key": "ex_ml_tau2_sens",
+   "value": 1.2238417664267114
+  },
+  {
+   "quantity": "Meta-regression: tables",
+   "printed": "51",
+   "stats_key": "mr_k",
+   "value": 51
+  },
+  {
+   "quantity": "Meta-regression: SAQ effect on logit sensitivity",
+   "printed": "−1.07",
+   "stats_key": "mr_sens_saq",
+   "value": -1.0730410824243277
+  },
+  {
+   "quantity": "Meta-regression: its SE",
+   "printed": "0.40",
+   "stats_key": "mr_sens_saq_se",
+   "value": 0.3982484154631886
+  },
+  {
+   "quantity": "Meta-regression: its p value",
+   "printed": "0.007",
+   "stats_key": "mr_sens_saq_p",
+   "value": 0.0070515189671075396
+  },
+  {
+   "quantity": "Meta-regression: sensitivity, SAQ",
+   "printed": "0.88",
+   "stats_key": "mr_sens_saq_prob",
+   "value": 0.8818015332559885
+  },
+  {
+   "quantity": "Meta-regression: sensitivity, IAQ",
+   "printed": "0.96",
+   "stats_key": "mr_sens_iaq",
+   "value": 0.9561710793043918
+  },
+  {
+   "quantity": "Meta-regression: SAQ effect on logit FPR",
+   "printed": "0.07",
+   "stats_key": "mr_fpr_saq",
+   "value": 0.06847636546765522
+  },
+  {
+   "quantity": "Meta-regression: its p value",
+   "printed": "0.82",
+   "stats_key": "mr_fpr_saq_p",
+   "value": 0.8235906543079016
+  }
+ ]
+}

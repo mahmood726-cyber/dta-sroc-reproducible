@@ -1,0 +1,14 @@
+{
+  "title": "Bivariate meta-analysis of diagnostic test accuracy in the browser: a tool validated against the R package mada",
+  "description": "The allmeta DTA SROC app (validated at allmeta commit 76d3e9d) and a one-command validation against the R package mada on all six diagnostic-accuracy datasets bundled with mada. The app fits the bivariate random-effects model (Reitsma) by REML, ML, method of moments, variance components or fixed effect, with mada's three continuity-correction rules and optional meta-regression, and reports summary sensitivity and specificity, likelihood ratios, Rutter-Gatsonis parameters, the SROC curve, AUC and partial AUC, and 95% confidence and prediction regions. Across 105 method, correction and covariate configurations on 6 datasets (159 two-by-two tables), the app agrees with mada on all 105: 80 fits within numerical tolerance and the same 25 refusals; 855/855 checks pass. Includes the corpus builder, R reference fits, the engine runner, the analysis that regenerates the article's tables, figures and statistics with a PASS/FAIL check of every number, a Docker image (canonical environment: R 4.6.0, mada 0.5.12, Node 24.15.0) and CI on Linux, Windows, macOS and Docker. Earlier app versions had known issues, fixed in allmeta PR #77 (see CHANGELOG.md).",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [{"name": "Ahmad, Mahmood"}],
+  "keywords": ["diagnostic test accuracy", "bivariate meta-analysis", "summary ROC curve", "HSROC", "meta-regression", "mada", "software validation", "reproducibility", "browser"],
+  "related_identifiers": [
+    {"identifier": "https://github.com/mahmood726-cyber/dta-sroc-reproducible", "relation": "isSupplementTo", "scheme": "url"},
+    {"identifier": "https://github.com/mahmood726-cyber/allmeta", "relation": "isDerivedFrom", "scheme": "url"},
+    {"identifier": "10.5281/zenodo.20516880", "relation": "isDerivedFrom", "scheme": "doi"}
+  ]
+}
