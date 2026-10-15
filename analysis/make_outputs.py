@@ -30,13 +30,33 @@ def logit(p):
     return math.log(p / (1 - p))
 
 
-# ---- mirror of allmeta hub/shared/tests/_dta_parity_check.mjs ----
+# ---- parity measures consistent with allmeta, with strict input validity ----
+def _strict_numeric_pairs(a, b):
+    """Reject malformed validation inputs rather than silently checking a prefix.
+
+    Values come from expected JSON numeric arrays. A missing element, empty
+    comparison, or non-finite value makes numerical agreement indeterminate.
+    """
+    if len(a) != len(b) or not a:
+        raise ValueError(f"Parity arrays must be nonempty and equal-length: {len(a)} vs {len(b)}")
+    for i, (x, y) in enumerate(zip(a, b)):
+        if isinstance(x, bool) or isinstance(y, bool):
+            raise ValueError(f"Boolean parity value at index {i}")
+        try:
+            x, y = float(x), float(y)
+        except (TypeError, ValueError) as exc:
+            raise ValueError(f"Non-numeric parity value at index {i}") from exc
+        if not math.isfinite(x) or not math.isfinite(y):
+            raise ValueError(f"Non-finite parity value at index {i}")
+        yield x, y
+
+
 def rel_max(a, b):
-    return max([abs(x - y) / max(1.0, abs(y)) for x, y in zip(a, b)] or [0.0])
+    return max(abs(x - y) / max(1.0, abs(y)) for x, y in _strict_numeric_pairs(a, b))
 
 
 def abs_max(a, b):
-    return max([abs(x - y) for x, y in zip(a, b)] or [0.0])
+    return max(abs(x - y) for x, y in _strict_numeric_pairs(a, b))
 
 
 def on_ellipse(C, mu, pts):
