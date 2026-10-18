@@ -1,0 +1,29 @@
+name: ROC region validation
+on:
+  pull_request:
+    paths:
+      - 'app/shared/dta-bivariate.js'
+      - 'tests/test_region_ellipse_validation.cjs'
+      - '.github/workflows/region-validation.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'app/shared/dta-bivariate.js'
+      - 'tests/test_region_ellipse_validation.cjs'
+      - '.github/workflows/region-validation.yml'
+permissions:
+  contents: read
+jobs:
+  region-validation:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/test_region_ellipse_validation.cjs
