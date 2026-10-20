@@ -11,9 +11,8 @@ identifiers:
     value: 10.5281/zenodo.23164857
     description: "Archived release v1.0.0 (Zenodo)"
 license: MIT
-version: 1.0.0
-doi: 10.5281/zenodo.23164857
-date-released: 2026-10-05
+version: 1.1.0
+date-released: 2026-10-20
 keywords:
   - diagnostic test accuracy
   - bivariate meta-analysis
@@ -28,3 +27,12 @@ references:
       - family-names: Ahmad
         given-names: Mahmood
     doi: 10.5281/zenodo.20516880
+  - type: software
+    title: "allmeta v1.8.0"
+    authors:
+      - family-names: Ahmad
+        given-names: Mahmood
+    version: 1.8.0
+    doi: "10.5281/zenodo.23515177"
+# Current app commit: 1cb3f8409c7af75ed41f7e1811f9c502f900fc79 (allmeta v1.8.0).
+# v1.1.0 archive DOI is not yet assigned. The identifier above is v1.0.0 only.

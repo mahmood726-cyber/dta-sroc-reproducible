@@ -16,6 +16,32 @@ The [allmeta](https://github.com/mahmood726-cyber/allmeta) **DTA SROC app** runs
 
 This repository validates the app against **mada** on every dataset that mada ships, and checks every number in the accompanying F1000Research article.
 
+## What's new in v1.1.0
+
+Finalized on 2026-10-20 for **allmeta v1.8.0**, commit
+`1cb3f8409c7af75ed41f7e1811f9c502f900fc79`, DOI `10.5281/zenodo.23515177`.
+The 2026-10-20 release run against `1cb3f84` passed; its redacted evidence is
+[provenance/run_plan-2026-10-20-release.log](provenance/run_plan-2026-10-20-release.log).
+
+- Refreshes the archived app and its local dependencies, including the extras panel.
+- Retains the original corpus builders, R reference code, expected paper values
+  and tolerances; the recorded original rerun passed **855/855** checks.
+- Adds [PR #133 extras validation](validation-plus/README.md): bivariate
+  meta-regression, conditional ROC regions and post-test probabilities.
+  The recorded extras replay passed **195,291/195,291** checks over 27 configurations.
+  The raw-scale gate passed over **3,528 configurations**: 222 raw and eight
+  standardised out-of-tolerance configurations, all noted; maximum relative
+  difference 1.89e-4. This does not claim universal numerical agreement.
+- Adds source/provenance manifests and a Windows runner plan. The recorded
+  2026-10-20 run (`provenance/run_plan-2026-10-20-release.log`, lines 15-184) passed the original 855/855
+  checks (105 configurations; 80 fits, 25 matched refusals; Moses 18/18),
+  53/53 paper numbers, pinned replay 855/855, extras 195,291/195,291,
+  23/23 negative controls and 8/8 oracle tests. The log ends with
+  `RECUT_RUN_PASS`; the runner recorded exit 0.
+
+The [recut notes](RECUT_NOTES.md) list every file change, checks performed,
+historical evidence, privacy redactions and verification limits.
+
 ## Reproduce in one click
 
 **1. See the latest verified run (nothing to run).** The [results page](https://mahmood726-cyber.github.io/dta-sroc-reproducible/) is republished by CI after every push to `main`: the PASS/FAIL table for every number in the paper, the result on Docker, Linux, Windows and macOS, the cross-platform comparison, and the figures.
@@ -46,11 +72,32 @@ Without Docker you need R 4.6.0, Node 24.15.0 and Python 3.12 or 3.13:
 2. `python -m pip install -r requirements.txt`
 3. `python reproduce.py` (or `--quick`)
 
-`make setup` and `make reproduce` do the same. **To use the app**, open `app/dta-sroc/index.html` in a browser.
+`make setup` and `make reproduce` run the original validation. For this release's
+complete Windows rerun, from the archive root run:
+
+```cmd
+RUN_PLAN.cmd
+```
+
+The plan uses caller-supplied R_HOME, R_LIBS_USER and R_LIBS (see
+RUN_PLAN_EXPECTED.md), runs the full original
+validation, prints its N/N, replays the pinned original corpus, runs the extras
+and raw-scale checks, and verifies the manifests. Expected results are in
+[RUN_PLAN_EXPECTED.md](RUN_PLAN_EXPECTED.md). It stops on the first failure.
+Install the pinned Python dependencies above before running it if needed.
+For the extras alone: `python validation-plus/run.py extras`, then
+`python validation-plus/run.py raw`. These require Node; full reproduction
+also requires the pinned desktop R environment. Optional extras R regeneration
+is documented in [validation-plus/README.md](validation-plus/README.md).
+
+**To use the app with its local fetch/webR dependencies**, run
+`python -m http.server 8000 --directory app` and open
+`http://localhost:8000/dta-sroc/`. Numerical Node checks do not require a server.
+Browser/webR and pixel tests are not claimed by the command-line rerun.
 
 ## What it shows
 
-The app is validated at **allmeta commit `76d3e9d`** (the merge of [allmeta PR #77](https://github.com/mahmood726-cyber/allmeta/pull/77)). `app/` is byte-identical to that commit.
+The current app snapshot is **allmeta v1.8.0, commit `1cb3f8409c7af75ed41f7e1811f9c502f900fc79`**. The 245 copied files are mapped in `COPY_MAP.json`; the supplied checkout has CRLF conversions, so Git-blob identity is not claimed by this sandbox pass. Run `../FINAL_BLOBS.cmd` to restore and verify every release blob, apply documented privacy redactions, and regenerate the published hashes in `APP_SOURCES.json` and `SOURCE_SHA256.json`. The table below quotes the **2026-10-20 release run, allmeta `1cb3f84`**, in the archived provenance log (lines 15-75).
 
 | | Result |
 |---|---|
@@ -75,7 +122,10 @@ The app's likelihood-ratio CIs (delta method), Deeks' test and Fagan nomogram ar
 
 | Path | Contents |
 |---|---|
-| `app/` | The app, byte-identical to allmeta commit `76d3e9d` |
+| `app/` | App and local dependencies from allmeta v1.8.0 (1cb3f84) |
+| `validation-plus/` | Upstream extras corpora and scripts; redacted evidence and archive runner |
+| `RUN_PLAN.cmd` | Windows original/extras rerun and integrity checks |
+| `SOURCE_SHA256.json`, `APP_SOURCES.json` | Published file hashes and release provenance |
 | `bench/build_corpus.R` | Builds the 6-dataset corpus from mada |
 | `bench/reference_mada.R` | mada reference fits over the option grid |
 | `bench/run_engine.mjs` | Runs the app's JavaScript engine on the same data |
@@ -105,6 +155,15 @@ The app's likelihood-ratio CIs (delta method), Deeks' test and Fagan nomogram ar
 
 ## Environment and determinism
 
+The recorded 2026-10-20 run used Node **24.13.0** (pinned 24.15.0),
+fonttools **4.67.0** (pinned 4.66.1), packaging **26.0** (pinned 26.3), and
+pillow **12.2.0** (pinned 12.3.0), with `reproduce.py --allow-version-mismatch`
+(`provenance/run_plan-2026-10-20-release.log`, lines 70-71). `SOURCE_SHA256.json` was regenerated after
+`RUN_PLAN.cmd` was edited to permit this deviation, before the recorded run;
+its initial verification therefore checked the revised plan. All numerical
+tolerances held. The Python differences concern plotting/packaging libraries;
+the canonical Docker/CI pins below remain unchanged.
+
 - **R 4.6.0.** The image is `rocker/r-ver:4.6.0`. mada 0.5.12, mvmeta 1.0.3, ellipse 0.5.0 and their dependencies come from the Posit Package Manager snapshot of 2026-10-01.
 - **Node 24.15.0** (`.nvmrc`) runs the app's JavaScript engine. There are no npm dependencies.
 - **Python** builds the tables and figures (numpy and matplotlib, pinned in `requirements.txt`).
@@ -119,7 +178,7 @@ Run time: about a minute.
 
 ## Cite
 
-Ahmad M. Bivariate meta-analysis of diagnostic test accuracy in the browser: a tool validated against the R package mada [software], v1.0.0. Zenodo; 2026. doi:[10.5281/zenodo.23164857](https://doi.org/10.5281/zenodo.23164857). Machine-readable metadata: `CITATION.cff`.
+Ahmad M. Bivariate meta-analysis of diagnostic test accuracy in the browser: a tool validated against the R package mada [software], v1.1.0; 2026. The archive v1.1.0 DOI is not yet assigned. The [v1.0.0 release](https://doi.org/10.5281/zenodo.23164857) remains available. Machine-readable metadata: `CITATION.cff`.
 
 ## Licence
 

@@ -1,14 +1,52 @@
 {
   "title": "Bivariate meta-analysis of diagnostic test accuracy in the browser: a tool validated against the R package mada",
-  "description": "The allmeta DTA SROC app (validated at allmeta commit 76d3e9d) and a one-command validation against the R package mada on all six diagnostic-accuracy datasets bundled with mada. The app fits the bivariate random-effects model (Reitsma) by REML, ML, method of moments, variance components or fixed effect, with mada's three continuity-correction rules and optional meta-regression, and reports summary sensitivity and specificity, likelihood ratios, Rutter-Gatsonis parameters, the SROC curve, AUC and partial AUC, and 95% confidence and prediction regions. Across 105 method, correction and covariate configurations on 6 datasets (159 two-by-two tables), the app agrees with mada on all 105: 80 fits within numerical tolerance and the same 25 refusals; 855/855 checks pass. Includes the corpus builder, R reference fits, the engine runner, the analysis that regenerates the article's tables, figures and statistics with a PASS/FAIL check of every number, a Docker image (canonical environment: R 4.6.0, mada 0.5.12, Node 24.15.0) and CI on Linux, Windows, macOS and Docker. Earlier app versions had known issues, fixed in allmeta PR #77 (see CHANGELOG.md).",
+  "description": "Validation archive v1.1.0 for F1000 paper 3: the allmeta DTA SROC app from allmeta v1.8.0 (commit 1cb3f8409c7af75ed41f7e1811f9c502f900fc79, DOI 10.5281/zenodo.23515177). The original validation inputs, R reference code, expected values and tolerances are unchanged. The recorded 2026-10-20 provenance/run_plan-2026-10-20-release.log (lines 15-184), against 1cb3f84, reports 855/855 checks across 105 configurations (80 fits and 25 matched refusals; Moses 18/18), 53/53 paper quantities and pinned replay 855/855. Adds PR #133 extras validation for bivariate meta-regression, conditional ROC confidence/prediction regions and post-test probabilities: 195,291/195,291 checks over 27 configurations. The separate raw-scale gate passed over 3,528 configurations with 222 raw and 8 standardised out-of-tolerance configurations, all noted; maximum relative difference 1.89e-4. This is not universal numerical agreement. Negative controls passed 23/23 and oracle tests 8/8. Includes unchanged reference corpora, R generators, wrappers, local browser dependencies, checksums and reproduction instructions. R 4.6.0, mada 0.5.12, mvmeta 1.0.3; extras corpus uses metadat 1.6-0. The recorded run used Node 24.13.0 and the documented Python dependency deviations with --allow-version-mismatch; see README. FINAL_BLOBS.cmd restores and verifies the 245 release blobs before documented privacy redactions; published hashes distinguish those derivatives. The helper awaits execution by the human-side runner. Existing v1.0.0 links and validation history are retained.",
   "upload_type": "software",
   "license": "MIT",
   "access_right": "open",
-  "creators": [{"name": "Ahmad, Mahmood"}],
-  "keywords": ["diagnostic test accuracy", "bivariate meta-analysis", "summary ROC curve", "HSROC", "meta-regression", "mada", "software validation", "reproducibility", "browser"],
+  "creators": [
+    {
+      "name": "Ahmad, Mahmood"
+    }
+  ],
+  "keywords": [
+    "diagnostic test accuracy",
+    "bivariate meta-analysis",
+    "summary ROC curve",
+    "HSROC",
+    "meta-regression",
+    "mada",
+    "software validation",
+    "reproducibility",
+    "browser"
+  ],
   "related_identifiers": [
-    {"identifier": "https://github.com/mahmood726-cyber/dta-sroc-reproducible", "relation": "isSupplementTo", "scheme": "url"},
-    {"identifier": "https://github.com/mahmood726-cyber/allmeta", "relation": "isDerivedFrom", "scheme": "url"},
-    {"identifier": "10.5281/zenodo.20516880", "relation": "isDerivedFrom", "scheme": "doi"}
-  ]
+    {
+      "identifier": "https://github.com/mahmood726-cyber/dta-sroc-reproducible",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/mahmood726-cyber/allmeta",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.20516880",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23515177",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23164857",
+      "relation": "isNewVersionOf",
+      "scheme": "doi"
+    }
+  ],
+  "version": "1.1.0",
+  "publication_date": "2026-10-20"
 }

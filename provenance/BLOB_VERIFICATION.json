@@ -1,0 +1,17 @@
+{
+  "commit": "1cb3f8409c7af75ed41f7e1811f9c502f900fc79",
+  "tag": "v1.8.0",
+  "verified_blobs": 245,
+  "published_exact_blobs": 236,
+  "privacy_derivatives": [
+    "app/hub/shared/vendor/jspdf.min.js",
+    "app/r-shiny/shinylive/webr/R.wasm",
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/translations/DESCRIPTION",
+    "app/r-shiny/shinylive/webr/webr-worker.js",
+    "validation-plus/dta-sroc/validate/generate-plus-raw.log",
+    "validation-plus/dta-sroc/validate/generate-plus.log",
+    "validation-plus/dta-sroc/validate/inspect-plus.log",
+    "validation-plus/dta-sroc/validate/inventory-plus.log",
+    "validation-plus/dta-sroc/validate/live-plus.log"
+  ]
+}

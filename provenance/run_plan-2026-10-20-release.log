@@ -1,0 +1,192 @@
+=== Local environment
+=== R executable PATH
+=== R user library
+=== R extra library
+=== Isolate R environment
+=== Runner executables
+=== Python UTF-8 output
+=== Verify prepared source
+PASS: 299/299 source files; 39 unchanged original files; 245 candidate copies; 7 corpus pins; 14 browser R packages
+=== Preserve previous original results
+Preserving results\full as full.prev-2
+=== Preserve previous original reports
+Preserving outputs\full as full.prev-2
+=== Original validation
+datasets                                     6                 6  PASS
+studies_total                              159               159  PASS
+zero_cell_studies                           18                18  PASS
+datasets_with_zero_cells                     5                 5  PASS
+configurations                             105               105  PASS
+mada_fitted                                 80                80  PASS
+mada_refused                                25                25  PASS
+refusals_matched                            25                25  PASS
+app_refused_mada_fitted                      0                 0  PASS
+app_fitted_mada_refused                      0                 0  PASS
+within_tolerance                           105               105  PASS
+all_within_tolerance                         1                 1  PASS
+meta_regression_configurations              15                15  PASS
+checks_total                               855               855  PASS
+checks_passed                              855               855  PASS
+fits_reml_ml                                32                32  PASS
+fits_fixed_mm                               32                32  PASS
+fits_vc                                     16                16  PASS
+reml_ml_below_1e-6                           1                 1  PASS
+fixed_mm_vc_below_1e-12                      1                 1  PASS
+loglik_below_1e-9                            1                 1  PASS
+derived_below_1e-6                           1                 1  PASS
+moses_cases                                 18                18  PASS
+moses_fitted                                13                13  PASS
+moses_agree                                 18                18  PASS
+mada_not_converged                           0                 0  PASS
+ex_k                                        14                14  PASS
+ex_zero                                      2                 2  PASS
+ex_sens                                  0.891           0.89088  PASS
+ex_sens_lo                               0.808           0.80808  PASS
+ex_sens_hi                               0.941           0.94058  PASS
+ex_spec                                   0.78           0.77966  PASS
+ex_spec_lo                               0.715           0.71545  PASS
+ex_spec_hi                               0.833           0.83277  PASS
+ex_auc                                   0.887           0.88668  PASS
+ex_pauc                                  0.861           0.86119  PASS
+ex_rho                                    0.85            0.8543  PASS
+ex_mada_sens                             0.891           0.89088  PASS
+ex_mada_spec                              0.78           0.77966  PASS
+ex_mada_auc                              0.887           0.88668  PASS
+ex_lrpos                                  4.04            4.0432  PASS
+ex_lrneg                                  0.14              0.14  PASS
+ex_ml_tau2_sens                           1.22            1.2238  PASS
+ex_reml_tau2_sens                         1.38            1.3796  PASS
+mr_k                                        51                51  PASS
+mr_sens_saq                              -1.07            -1.073  PASS
+mr_sens_saq_se                             0.4            0.3982  PASS
+mr_sens_saq_p                            0.007           0.00705  PASS
+mr_fpr_saq                                0.07            0.0685  PASS
+mr_fpr_saq_p                              0.82            0.8236  PASS
+mr_mada_sens_saq                         -1.07            -1.073  PASS
+mr_sens_iaq                               0.96            0.9562  PASS
+mr_sens_saq_prob                          0.88            0.8818  PASS
+
+53/53 numbers reproduced: ALL PASS
+environment: R 4.6.0 (mada 0.5.12, mvmeta 1.0.3, ellipse 0.5.0), Node 24.13.0, Python 3.13.13, Windows AMD64
+WARNING: version mismatch: node 24.13.0 (pinned 24.15.0); fonttools 4.67.0 (pinned 4.66.1); packaging 26.0 (pinned 26.3); pillow 12.2.0 (pinned 12.3.0)
+corpus: 6 datasets, 159 studies, 18 with a zero cell (mada 0.5.12)
+mada 0.5.12 (mvmeta 1.0.3, ellipse 0.5.0), R 4.6.0: 6 datasets, 105 configurations -> <LOCAL>\mada.jsonl
+engine (v24.13.0): 6 datasets -> <LOCAL>\engine.jsonl; dta-bivariate.js sha256 5c05f1870ff6c8cc
+total time 12 s; outputs in outputs\full
+=== Original N/N
+ORIGINAL: 855/855 checks PASS; 105 configurations, 80 fits, 25 matched refusals; Moses-Littenberg 18/18
+=== Preserve previous extras workspace
+Preserving outputs\validation-plus as validation-plus.prev-2
+=== Original pinned replay
+{
+  "checks": 855,
+  "passed": 855,
+  "failed": [],
+  "coverageFails": [],
+  "maxima": {
+    "coef": 1.488565759544258e-8,
+    "vcov": 2.5364350259016177e-8,
+    "Psi": 1.8834767390174534e-7,
+    "logLik": 4.547473508864641e-13,
+    "AIC": 9.094947017729282e-13,
+    "BIC": 9.094947017729282e-13,
+    "summary": 2.7295742055510885e-10,
+    "corRandom": 6.756919912476178e-9,
+    "hsroc": 2.2936993193667377e-8,
+    "auc": 4.317357582550585e-10,
+    "sroc": 1.4034896189674129e-8,
+    "confRegion": 3.2030069421773864e-8,
+    "predRegion": 2.9023277055287068e-8
+  },
+  "refusals": {
+    "reference": 25,
+    "app": 25,
+    "matched": 25
+  },
+  "summaryLines": [
+    "855/855 checks passed; 105 configurations (80 fits + 25 identical refusals); 105 configuration checks + 732 quantity checks + 18 Moses-Littenberg checks."
+  ]
+}
+original: 855/855 checks PASS
+=== Extras numerical replay
+{
+  "configurations": 27,
+  "candidates": 114,
+  "checks": 195291,
+  "passed": 195291,
+  "failures": []
+}
+extras: 195,291/195,291 checks PASS
+=== Raw-scale gate
+Raw-scale corpus: 3528 configurations; R 4.6.0, mada 0.5.12, mvmeta 1.0.3; note unless |mean|/SD and |SD-1| <= 0.001
+  near-standardised / mada-raw / no note: 54/54 configurations within tolerance (14526/14526 checks)
+  near-standardised / mada-raw / note shown: 96/96 configurations within tolerance (25824/25824 checks)
+  near-standardised / mada-std / no note: 54/54 configurations within tolerance (14526/14526 checks)
+  near-standardised / mada-std / note shown: 96/96 configurations within tolerance (25824/25824 checks)
+  reference-raw-year / mada-raw / note shown: 14/18 configurations within tolerance (137421/139491 checks)
+  reference-raw-year / mada-std / note shown: 18/18 configurations within tolerance (139491/139491 checks)
+  scale-scan / mada-raw / no note: 30/30 configurations within tolerance (8070/8070 checks)
+  scale-scan / mada-raw / note shown: 2009/2130 configurations within tolerance (571860/572970 checks)
+  scale-scan / mada-std / no note: 30/30 configurations within tolerance (8070/8070 checks)
+  scale-scan / mada-std / note shown: 2130/2130 configurations within tolerance (572970/572970 checks)
+  shift-scan / mada-raw / note shown: 636/660 configurations within tolerance (177473/177540 checks)
+  shift-scan / mada-std / note shown: 660/660 configurations within tolerance (177540/177540 checks)
+  synthetic-raw-year / mada-raw / note shown: 467/540 configurations within tolerance (127981/128439 checks)
+  synthetic-raw-year / mada-std / note shown: 532/540 configurations within tolerance (128423/128439 checks)
+  out-of-tolerance configurations: vs mada on the same input 222, vs mada standardised 8; all with the note shown: true; largest relative difference 1.89e-4
+PASS: raw-scale gate
+raw-scale gate: PASS (3,528 configurations; agreement counts are reported by subgroup)
+=== Extras negative controls
+✔ all scalar reference checks (142.586ms)
+✔ detect fit corruption: coef (157.675ms)
+✔ detect fit corruption: vcov (136.1973ms)
+✔ detect fit corruption: Psi (117.313ms)
+✔ detect fit corruption: p (109.7829ms)
+✔ detect fit corruption: z (106.8059ms)
+✔ detect fit corruption: se (103.0086ms)
+✔ detect fit corruption: lo (102.1715ms)
+✔ detect fit corruption: hi (109.037ms)
+✔ detect prediction corruption: sens (110.0323ms)
+✔ detect prediction corruption: spec (98.1547ms)
+✔ detect prediction corruption: mu (106.0311ms)
+✔ detect prediction corruption: C (102.7865ms)
+✔ detect prediction corruption: positive (101.8158ms)
+✔ detect prediction corruption: negative (98.2613ms)
+✔ detect prediction corruption: confidence (119.2905ms)
+✔ detect prediction corruption: prediction (101.307ms)
+✔ detect refusal corruption (97.1164ms)
+✔ detect array truncation (130.2542ms)
+✔ invalid method and correction (0.3692ms)
+✔ invalid counts and constant covariate (0.2918ms)
+✔ invalid prediction and prevalence (9.1588ms)
+✔ undefined post-test probability is refused (8.9629ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2334.1186
+=== Original oracle tests
+test_empty_arrays_rejected (test_parity_oracle_shapes.TestParityOracleShapeAndFiniteness.test_empty_arrays_rejected) ... ok
+test_extra_app_result_rejected (test_parity_oracle_shapes.TestParityOracleShapeAndFiniteness.test_extra_app_result_rejected) ... ok
+test_identical_numeric_arrays_pass (test_parity_oracle_shapes.TestParityOracleShapeAndFiniteness.test_identical_numeric_arrays_pass) ... ok
+test_inf_any_position_rejected (test_parity_oracle_shapes.TestParityOracleShapeAndFiniteness.test_inf_any_position_rejected) ... ok
+test_missing_trailing_result_rejected (test_parity_oracle_shapes.TestParityOracleShapeAndFiniteness.test_missing_trailing_result_rejected) ... ok
+test_nan_any_position_rejected (test_parity_oracle_shapes.TestParityOracleShapeAndFiniteness.test_nan_any_position_rejected) ... ok
+test_nonnumeric_values_rejected (test_parity_oracle_shapes.TestParityOracleShapeAndFiniteness.test_nonnumeric_values_rejected) ... ok
+test_valid_discrepancy_unchanged (test_parity_oracle_shapes.TestParityOracleShapeAndFiniteness.test_valid_discrepancy_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK
+=== Verify after validation
+PASS: 299/299 source files; 39 unchanged original files; 245 candidate copies; 7 corpus pins; 14 browser R packages
+=== Regenerate file inventory
+Wrote SOURCE_SHA256.json: 299 files
+=== Verify regenerated inventory
+PASS: 299/299 source files; 39 unchanged original files; 245 candidate copies; 7 corpus pins; 14 browser R packages
+=== Completion
+RECUT_RUN_PASS

@@ -1,0 +1,2329 @@
+{
+  "allmeta_tag": "v1.8.0",
+  "allmeta_commit": "1cb3f8409c7af75ed41f7e1811f9c502f900fc79",
+  "allmeta_doi": "10.5281/zenodo.23515177",
+  "preparation_candidate": "d04b0a9",
+  "browser_packages": [
+    "Matrix",
+    "digest",
+    "ellipse",
+    "lattice",
+    "mada",
+    "mathjaxr",
+    "metadat",
+    "metafor",
+    "mixmeta",
+    "mvmeta",
+    "mvtnorm",
+    "nlme",
+    "numDeriv",
+    "pbapply"
+  ],
+  "files": {
+    "app/dta-sroc/README.md": {
+      "source": "dta-sroc/README.md",
+      "sha256": "eb4415863cdd13a457b7aa92ca2b3264f5f8254e340dad1ea1fe7e2a99a17aad",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js"
+      ],
+      "upstream_blob_sha256": "eb4415863cdd13a457b7aa92ca2b3264f5f8254e340dad1ea1fe7e2a99a17aad",
+      "privacy_redacted": false
+    },
+    "app/dta-sroc/example-datasets.js": {
+      "source": "dta-sroc/example-datasets.js",
+      "sha256": "cff3bf424bdf30ee661b22816e2c6b93db956d5798fb9bff52aeddaa451faa27",
+      "reasons": [
+        "dta-sroc/index.html",
+        "existing archived app path"
+      ],
+      "upstream_blob_sha256": "cff3bf424bdf30ee661b22816e2c6b93db956d5798fb9bff52aeddaa451faa27",
+      "privacy_redacted": false
+    },
+    "app/dta-sroc/index.html": {
+      "source": "dta-sroc/index.html",
+      "sha256": "515390c3a344fc584f7f0683e9b4f2d1f83bfbbf31f095c4b7cf9142a7bb9a46",
+      "reasons": [
+        "existing archived app path",
+        "r-shiny/shinylive/webr/R.js"
+      ],
+      "upstream_blob_sha256": "515390c3a344fc584f7f0683e9b4f2d1f83bfbbf31f095c4b7cf9142a7bb9a46",
+      "privacy_redacted": false
+    },
+    "app/dta-sroc/plus-bivariate.js": {
+      "source": "dta-sroc/plus-bivariate.js",
+      "sha256": "3678755dbed75e1baa7876e6e3955107f0eb6af8195f0e5de28c44eef68d3623",
+      "reasons": [
+        "dta-sroc/index.html"
+      ],
+      "upstream_blob_sha256": "3678755dbed75e1baa7876e6e3955107f0eb6af8195f0e5de28c44eef68d3623",
+      "privacy_redacted": false
+    },
+    "app/dta-sroc/plus-ui.js": {
+      "source": "dta-sroc/plus-ui.js",
+      "sha256": "f947da768a244602fdbc4f3cb9661a4a602b06b182be9d075530b083d3bae019",
+      "reasons": [
+        "dta-sroc/index.html"
+      ],
+      "upstream_blob_sha256": "f947da768a244602fdbc4f3cb9661a4a602b06b182be9d075530b083d3bae019",
+      "privacy_redacted": false
+    },
+    "app/dta-sroc/plus.js": {
+      "source": "dta-sroc/plus.js",
+      "sha256": "2b27e6fab5ba69d83f0ce51da42aaa3d95f937c02559ee0660bade1bc08191c7",
+      "reasons": [
+        "dta-sroc/index.html"
+      ],
+      "upstream_blob_sha256": "2b27e6fab5ba69d83f0ce51da42aaa3d95f937c02559ee0660bade1bc08191c7",
+      "privacy_redacted": false
+    },
+    "app/dta-sroc/validate/MANIFEST-plus.json": {
+      "source": "dta-sroc/validate/MANIFEST-plus.json",
+      "sha256": "c65554f54c912a476943a62d5831dac4ef1ce029f8871f08ed49f1bddecaf889",
+      "reasons": [
+        "browser validation corpus manifest"
+      ],
+      "upstream_blob_sha256": "c65554f54c912a476943a62d5831dac4ef1ce029f8871f08ed49f1bddecaf889",
+      "privacy_redacted": false
+    },
+    "app/dta-sroc/validate/MANIFEST.json": {
+      "source": "dta-sroc/validate/MANIFEST.json",
+      "sha256": "75fa9bea28f0063a5c01eb02366cea248505452ca061b7714c1b961f45345a49",
+      "reasons": [
+        "browser validation corpus manifest"
+      ],
+      "upstream_blob_sha256": "75fa9bea28f0063a5c01eb02366cea248505452ca061b7714c1b961f45345a49",
+      "privacy_redacted": false
+    },
+    "app/dta-sroc/validate/README-plus.md": {
+      "source": "dta-sroc/validate/README-plus.md",
+      "sha256": "a0b2b5c0617c1bd882455c33c86c6d5c2c9c23ab0281ed1b1a4fa7551595ef58",
+      "reasons": [
+        "dta-sroc/plus-ui.js",
+        "dynamic app dependency or linked validation scope"
+      ],
+      "upstream_blob_sha256": "a0b2b5c0617c1bd882455c33c86c6d5c2c9c23ab0281ed1b1a4fa7551595ef58",
+      "privacy_redacted": false
+    },
+    "app/dta-sroc/validate/adapter.js": {
+      "source": "dta-sroc/validate/adapter.js",
+      "sha256": "36b5dd8f572f4e3638e0e895b7b40c90623d52ee7d118818cadbd7f27b072c66",
+      "reasons": [
+        "dta-sroc/index.html"
+      ],
+      "upstream_blob_sha256": "36b5dd8f572f4e3638e0e895b7b40c90623d52ee7d118818cadbd7f27b072c66",
+      "privacy_redacted": false
+    },
+    "app/dta-sroc/validate/corpus/paper_values.json": {
+      "source": "dta-sroc/validate/corpus/paper_values.json",
+      "sha256": "a3cc58b2018720d0467fc40bd673edd6259277802293d5c7b7e5438937a4dfbd",
+      "reasons": [
+        "dta-sroc/validate/adapter.js",
+        "manifest-driven browser fetch"
+      ],
+      "upstream_blob_sha256": "a3cc58b2018720d0467fc40bd673edd6259277802293d5c7b7e5438937a4dfbd",
+      "privacy_redacted": false
+    },
+    "app/dta-sroc/validate/corpus/plus-reference.json": {
+      "source": "dta-sroc/validate/corpus/plus-reference.json",
+      "sha256": "02ef07894df8f96f80c5dca2d0af0486f82a15d544de3a2b6d3367c977bfd03b",
+      "reasons": [
+        "dta-sroc/validate/plus-pins.js",
+        "manifest-driven browser fetch"
+      ],
+      "upstream_blob_sha256": "02ef07894df8f96f80c5dca2d0af0486f82a15d544de3a2b6d3367c977bfd03b",
+      "privacy_redacted": false
+    },
+    "app/dta-sroc/validate/corpus/reference.json": {
+      "source": "dta-sroc/validate/corpus/reference.json",
+      "sha256": "c27829827ad9772c8a9886c682ad13ef8ff80a8016372052bbc0b91a48105d29",
+      "reasons": [
+        "dta-sroc/validate/adapter.js",
+        "manifest-driven browser fetch"
+      ],
+      "upstream_blob_sha256": "c27829827ad9772c8a9886c682ad13ef8ff80a8016372052bbc0b91a48105d29",
+      "privacy_redacted": false
+    },
+    "app/dta-sroc/validate/plus-adapter.js": {
+      "source": "dta-sroc/validate/plus-adapter.js",
+      "sha256": "49defb17179a6cb562847096aa28521116d2eff3fbf6b7dcff583b32eb2fa18c",
+      "reasons": [
+        "dta-sroc/index.html"
+      ],
+      "upstream_blob_sha256": "49defb17179a6cb562847096aa28521116d2eff3fbf6b7dcff583b32eb2fa18c",
+      "privacy_redacted": false
+    },
+    "app/dta-sroc/validate/plus-core.js": {
+      "source": "dta-sroc/validate/plus-core.js",
+      "sha256": "51951f211759a7bdb6ce13a2cf9da96cf7ec0b004191bac813b40b7f34c6e8df",
+      "reasons": [
+        "dta-sroc/index.html"
+      ],
+      "upstream_blob_sha256": "51951f211759a7bdb6ce13a2cf9da96cf7ec0b004191bac813b40b7f34c6e8df",
+      "privacy_redacted": false
+    },
+    "app/dta-sroc/validate/plus-pins.js": {
+      "source": "dta-sroc/validate/plus-pins.js",
+      "sha256": "62906d0eed5121e944c4db6d4e5a933ddc1d490a5dbf503ec163faafd1ab08c1",
+      "reasons": [
+        "dta-sroc/index.html"
+      ],
+      "upstream_blob_sha256": "62906d0eed5121e944c4db6d4e5a933ddc1d490a5dbf503ec163faafd1ab08c1",
+      "privacy_redacted": false
+    },
+    "app/dta-sroc/validate/plus-reference-frame.html": {
+      "source": "dta-sroc/validate/plus-reference-frame.html",
+      "sha256": "aceeebface49291ef97d6fdb76058ab99d0337899431d603ce33a72a6b5cd454",
+      "reasons": [
+        "dta-sroc/validate/plus-adapter.js",
+        "dynamic app dependency or linked validation scope"
+      ],
+      "upstream_blob_sha256": "aceeebface49291ef97d6fdb76058ab99d0337899431d603ce33a72a6b5cd454",
+      "privacy_redacted": false
+    },
+    "app/dta-sroc/validate/plus-render-reference.js": {
+      "source": "dta-sroc/validate/plus-render-reference.js",
+      "sha256": "c518cb1138944947c9dedc05bd7aeb45a435b1de9e67efaac2b312f8125baea1",
+      "reasons": [
+        "dta-sroc/index.html"
+      ],
+      "upstream_blob_sha256": "c518cb1138944947c9dedc05bd7aeb45a435b1de9e67efaac2b312f8125baea1",
+      "privacy_redacted": false
+    },
+    "app/dta-sroc/validate/strict-p-differences.json": {
+      "source": "dta-sroc/validate/strict-p-differences.json",
+      "sha256": "352a65a1fca2287d9be832146359fe7b62cbd8019797ea234eb8dcc8a7411f22",
+      "reasons": [
+        "dynamic app dependency or linked validation scope"
+      ],
+      "upstream_blob_sha256": "352a65a1fca2287d9be832146359fe7b62cbd8019797ea234eb8dcc8a7411f22",
+      "privacy_redacted": false
+    },
+    "app/hub/app-style.css": {
+      "source": "hub/app-style.css",
+      "sha256": "905dba05ebb123f3c3baec8b5691830b48eb9c9092648f5cba71be0efc6a12a6",
+      "reasons": [
+        "dta-sroc/index.html",
+        "existing archived app path"
+      ],
+      "upstream_blob_sha256": "905dba05ebb123f3c3baec8b5691830b48eb9c9092648f5cba71be0efc6a12a6",
+      "privacy_redacted": false
+    },
+    "app/hub/shared/a11y-landmarks.js": {
+      "source": "hub/shared/a11y-landmarks.js",
+      "sha256": "f7a89f3c72dd80f666d16d52592a7e60f45fba62efc9dfeb4c2faf7fb0e8b5a2",
+      "reasons": [
+        "dta-sroc/index.html",
+        "existing archived app path"
+      ],
+      "upstream_blob_sha256": "f7a89f3c72dd80f666d16d52592a7e60f45fba62efc9dfeb4c2faf7fb0e8b5a2",
+      "privacy_redacted": false
+    },
+    "app/hub/shared/analysis-lifecycle.js": {
+      "source": "hub/shared/analysis-lifecycle.js",
+      "sha256": "e8a5ff3fd7908469013e17a881083def5451f30a075f34584db8b9c086652afa",
+      "reasons": [
+        "dta-sroc/index.html"
+      ],
+      "upstream_blob_sha256": "e8a5ff3fd7908469013e17a881083def5451f30a075f34584db8b9c086652afa",
+      "privacy_redacted": false
+    },
+    "app/hub/shared/axis-controls.js": {
+      "source": "hub/shared/axis-controls.js",
+      "sha256": "7a5dd1033ee1b348eaedbffd2e14fdf8b1bd1d24318ab9e680c442e693613291",
+      "reasons": [
+        "dta-sroc/index.html",
+        "existing archived app path"
+      ],
+      "upstream_blob_sha256": "7a5dd1033ee1b348eaedbffd2e14fdf8b1bd1d24318ab9e680c442e693613291",
+      "privacy_redacted": false
+    },
+    "app/hub/shared/csv-upload.js": {
+      "source": "hub/shared/csv-upload.js",
+      "sha256": "392d1cfb6f8633978e978f37d90f795828ad0d03ac642edbedfca2bcc439de34",
+      "reasons": [
+        "dta-sroc/index.html",
+        "existing archived app path"
+      ],
+      "upstream_blob_sha256": "392d1cfb6f8633978e978f37d90f795828ad0d03ac642edbedfca2bcc439de34",
+      "privacy_redacted": false
+    },
+    "app/hub/shared/glossary.ar.json": {
+      "source": "hub/shared/glossary.ar.json",
+      "sha256": "918cfd779291fc1df829d58f6f92f30f520c70206c59a2df3176d7a26752f533",
+      "reasons": [
+        "tooltips dynamic language selection"
+      ],
+      "upstream_blob_sha256": "918cfd779291fc1df829d58f6f92f30f520c70206c59a2df3176d7a26752f533",
+      "privacy_redacted": false
+    },
+    "app/hub/shared/glossary.es.json": {
+      "source": "hub/shared/glossary.es.json",
+      "sha256": "33038d3067deea675d67ed5caaa1c6e9a760a6a60821e8386a6e7c41ad17988b",
+      "reasons": [
+        "tooltips dynamic language selection"
+      ],
+      "upstream_blob_sha256": "33038d3067deea675d67ed5caaa1c6e9a760a6a60821e8386a6e7c41ad17988b",
+      "privacy_redacted": false
+    },
+    "app/hub/shared/glossary.json": {
+      "source": "hub/shared/glossary.json",
+      "sha256": "ff96263d3e828de5f681a814418487257dfc5625417c1aed8e87a7e3339672d8",
+      "reasons": [
+        "dta-sroc/index.html",
+        "existing archived app path",
+        "hub/shared/tooltips.js",
+        "tooltips dynamic language selection"
+      ],
+      "upstream_blob_sha256": "ff96263d3e828de5f681a814418487257dfc5625417c1aed8e87a7e3339672d8",
+      "privacy_redacted": false
+    },
+    "app/hub/shared/glossary.zh.json": {
+      "source": "hub/shared/glossary.zh.json",
+      "sha256": "d04e7d3e3acbeceb51b8c1d7c3dcc3a7f762266c7c003e7700a19095472504ea",
+      "reasons": [
+        "tooltips dynamic language selection"
+      ],
+      "upstream_blob_sha256": "d04e7d3e3acbeceb51b8c1d7c3dcc3a7f762266c7c003e7700a19095472504ea",
+      "privacy_redacted": false
+    },
+    "app/hub/shared/plot-export.js": {
+      "source": "hub/shared/plot-export.js",
+      "sha256": "c8423a5ead0fdf213a7798eee68245407e4e4a95f0b25c83b020b57ba4c1d0f1",
+      "reasons": [
+        "dta-sroc/index.html"
+      ],
+      "upstream_blob_sha256": "c8423a5ead0fdf213a7798eee68245407e4e4a95f0b25c83b020b57ba4c1d0f1",
+      "privacy_redacted": false
+    },
+    "app/hub/shared/reset-undo.js": {
+      "source": "hub/shared/reset-undo.js",
+      "sha256": "467e815bc5129c09125f736c61eb0a0e12b8375b7d63d868921ec6224e028ce5",
+      "reasons": [
+        "dta-sroc/index.html",
+        "existing archived app path"
+      ],
+      "upstream_blob_sha256": "467e815bc5129c09125f736c61eb0a0e12b8375b7d63d868921ec6224e028ce5",
+      "privacy_redacted": false
+    },
+    "app/hub/shared/results-export.js": {
+      "source": "hub/shared/results-export.js",
+      "sha256": "aa484e6bd3cbe2098e677e171b07fdc82ab73027637d56e3b59635aa831b545d",
+      "reasons": [
+        "dta-sroc/index.html",
+        "existing archived app path"
+      ],
+      "upstream_blob_sha256": "aa484e6bd3cbe2098e677e171b07fdc82ab73027637d56e3b59635aa831b545d",
+      "privacy_redacted": false
+    },
+    "app/hub/shared/tooltips.js": {
+      "source": "hub/shared/tooltips.js",
+      "sha256": "bbd9b0e117877c089549208d4d2b2d6dde0aa9c7ff8c02e3c035c22ee1e678e3",
+      "reasons": [
+        "dta-sroc/index.html",
+        "existing archived app path"
+      ],
+      "upstream_blob_sha256": "bbd9b0e117877c089549208d4d2b2d6dde0aa9c7ff8c02e3c035c22ee1e678e3",
+      "privacy_redacted": false
+    },
+    "app/hub/shared/url-state.js": {
+      "source": "hub/shared/url-state.js",
+      "sha256": "f15ee8a8c29faf1c3878f6be7de17559c83bf2e1621a711f146b1b4896772f4b",
+      "reasons": [
+        "dta-sroc/index.html",
+        "existing archived app path"
+      ],
+      "upstream_blob_sha256": "f15ee8a8c29faf1c3878f6be7de17559c83bf2e1621a711f146b1b4896772f4b",
+      "privacy_redacted": false
+    },
+    "app/hub/shared/vendor/jspdf.min.js": {
+      "source": "hub/shared/vendor/jspdf.min.js",
+      "sha256": "f8d599fa310be227afa7a4728f5704623a02478f870b96e2131c2fd00a0b386c",
+      "reasons": [
+        "dynamic app dependency or linked validation scope",
+        "hub/shared/plot-export.js"
+      ],
+      "pre_redaction_checkout_sha256": "98ccf17aa10c20bb1301762618fcc9b6ab3a4e7f26b6071d64d0b41154df3875",
+      "privacy_redacted": true,
+      "upstream_blob_sha256": "98ccf17aa10c20bb1301762618fcc9b6ab3a4e7f26b6071d64d0b41154df3875"
+    },
+    "app/r-shiny/shinylive/webr/R.js": {
+      "source": "r-shiny/shinylive/webr/R.js",
+      "sha256": "76b046ea4e8ab0fd1268db9000bcaf65004f654d969231d339598cdc6d4c80cc",
+      "reasons": [
+        "webR runtime dynamic resource"
+      ],
+      "upstream_blob_sha256": "76b046ea4e8ab0fd1268db9000bcaf65004f654d969231d339598cdc6d4c80cc",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/R.wasm": {
+      "source": "r-shiny/shinylive/webr/R.wasm",
+      "sha256": "563950f479a3b717470574f76e0067bfae3c0354336892a4e6d1a56e9a691a49",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR runtime dynamic resource"
+      ],
+      "pre_redaction_checkout_sha256": "b2e87bafe6245e72b50044dd5678303981491c275a393a30dcaec903dea8a500",
+      "privacy_redacted": true,
+      "upstream_blob_sha256": "b2e87bafe6245e72b50044dd5678303981491c275a393a30dcaec903dea8a500"
+    },
+    "app/r-shiny/shinylive/webr/libRblas.so": {
+      "source": "r-shiny/shinylive/webr/libRblas.so",
+      "sha256": "d4e703f3ae2783d2f63464fe49a9db44e4db48adedd042b54a5a2c74b7f67825",
+      "reasons": [
+        "webR runtime dynamic resource"
+      ],
+      "upstream_blob_sha256": "d4e703f3ae2783d2f63464fe49a9db44e4db48adedd042b54a5a2c74b7f67825",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/libRlapack.so": {
+      "source": "r-shiny/shinylive/webr/libRlapack.so",
+      "sha256": "aedceeaf3bae382dc242afd9c84f9169c8ebaa8cc8130e0e7e4167be5a2a5244",
+      "reasons": [
+        "webR runtime dynamic resource"
+      ],
+      "upstream_blob_sha256": "aedceeaf3bae382dc242afd9c84f9169c8ebaa8cc8130e0e7e4167be5a2a5244",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/library.data.gz": {
+      "source": "r-shiny/shinylive/webr/library.data.gz",
+      "sha256": "e085881f95d3adc7aa9c987914f8fcc3134dfdaa11f54f1f8f866933df97dd57",
+      "reasons": [
+        "webR runtime dynamic resource"
+      ],
+      "upstream_blob_sha256": "e085881f95d3adc7aa9c987914f8fcc3134dfdaa11f54f1f8f866933df97dd57",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/library.js.metadata": {
+      "source": "r-shiny/shinylive/webr/library.js.metadata",
+      "sha256": "5f913740641af3c621bcc4ef2959d2ad67a121c21d437429ea61e2d68acd26c5",
+      "reasons": [
+        "webR runtime dynamic resource"
+      ],
+      "upstream_blob_sha256": "5f913740641af3c621bcc4ef2959d2ad67a121c21d437429ea61e2d68acd26c5",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/packages/Matrix/Matrix_1.7-5.tgz": {
+      "source": "r-shiny/shinylive/webr/packages/Matrix/Matrix_1.7-5.tgz",
+      "sha256": "408f6f9226d1849eddefbd00c866c4836ccc1803e6ab5bdfc107d5170585685c",
+      "reasons": [
+        "mada browser R dependency: Matrix"
+      ],
+      "upstream_blob_sha256": "408f6f9226d1849eddefbd00c866c4836ccc1803e6ab5bdfc107d5170585685c",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/packages/lattice/lattice_0.22-9.tgz": {
+      "source": "r-shiny/shinylive/webr/packages/lattice/lattice_0.22-9.tgz",
+      "sha256": "ba5d01351d5a75dbf9193c03ba33ef7141dc27aea835c9dc9e0b1c41544b0822",
+      "reasons": [
+        "mada browser R dependency: lattice"
+      ],
+      "upstream_blob_sha256": "ba5d01351d5a75dbf9193c03ba33ef7141dc27aea835c9dc9e0b1c41544b0822",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/packages/mathjaxr/mathjaxr_2.0-0.tgz": {
+      "source": "r-shiny/shinylive/webr/packages/mathjaxr/mathjaxr_2.0-0.tgz",
+      "sha256": "0309e3ecbf1363c09f7434c3a02275f98436367d57f20f448090d73bc507945e",
+      "reasons": [
+        "mada browser R dependency: mathjaxr"
+      ],
+      "upstream_blob_sha256": "0309e3ecbf1363c09f7434c3a02275f98436367d57f20f448090d73bc507945e",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/packages/metadat/metadat_1.4-0.tgz": {
+      "source": "r-shiny/shinylive/webr/packages/metadat/metadat_1.4-0.tgz",
+      "sha256": "581a0d76b2c0b4a22baa017fee61750740f7a13a22c5a546971d5a64f410a7b2",
+      "reasons": [
+        "mada browser R dependency: metadat"
+      ],
+      "upstream_blob_sha256": "581a0d76b2c0b4a22baa017fee61750740f7a13a22c5a546971d5a64f410a7b2",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/packages/metafor/metafor_4.8-0.tgz": {
+      "source": "r-shiny/shinylive/webr/packages/metafor/metafor_4.8-0.tgz",
+      "sha256": "746f8ab2d0d85b03a3f07ead0340193a04defd1f871dd6511dd758a9f2ff28b0",
+      "reasons": [
+        "mada browser R dependency: metafor"
+      ],
+      "upstream_blob_sha256": "746f8ab2d0d85b03a3f07ead0340193a04defd1f871dd6511dd758a9f2ff28b0",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/packages/mvtnorm/mvtnorm_1.2-4.tgz": {
+      "source": "r-shiny/shinylive/webr/packages/mvtnorm/mvtnorm_1.2-4.tgz",
+      "sha256": "66780ee25dfcaa5094f27b171609e894874b79fb6eef17e498291240a17f62ed",
+      "reasons": [
+        "mada browser R dependency: mvtnorm"
+      ],
+      "upstream_blob_sha256": "66780ee25dfcaa5094f27b171609e894874b79fb6eef17e498291240a17f62ed",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/packages/nlme/nlme_3.1-169.tgz": {
+      "source": "r-shiny/shinylive/webr/packages/nlme/nlme_3.1-169.tgz",
+      "sha256": "cb1b992c11ec78fe4529441ab6e684c3a9929661b86890cec3beff7f45ebdb61",
+      "reasons": [
+        "mada browser R dependency: nlme"
+      ],
+      "upstream_blob_sha256": "cb1b992c11ec78fe4529441ab6e684c3a9929661b86890cec3beff7f45ebdb61",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/packages/numDeriv/numDeriv_2016.8-1.1.tgz": {
+      "source": "r-shiny/shinylive/webr/packages/numDeriv/numDeriv_2016.8-1.1.tgz",
+      "sha256": "d4a872a6f04de8b74fbc24e479152916f87618295b092930f00ec3ce83b7f866",
+      "reasons": [
+        "mada browser R dependency: numDeriv"
+      ],
+      "upstream_blob_sha256": "d4a872a6f04de8b74fbc24e479152916f87618295b092930f00ec3ce83b7f866",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/packages/pbapply/pbapply_1.7-4.tgz": {
+      "source": "r-shiny/shinylive/webr/packages/pbapply/pbapply_1.7-4.tgz",
+      "sha256": "a256290bd68d1e73b129c9483c7746d71c32e62a0cc25bfe595ce7b6a8b495ff",
+      "reasons": [
+        "mada browser R dependency: pbapply"
+      ],
+      "upstream_blob_sha256": "a256290bd68d1e73b129c9483c7746d71c32e62a0cc25bfe595ce7b6a8b495ff",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/digest_0.6.39.tgz": {
+      "source": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/digest_0.6.39.tgz",
+      "sha256": "3aaa3c2acf4af9fd93c78db33878aaff91568da71c7de14e30a6baafcac0c6b9",
+      "reasons": [
+        "mada browser R dependency: digest"
+      ],
+      "upstream_blob_sha256": "3aaa3c2acf4af9fd93c78db33878aaff91568da71c7de14e30a6baafcac0c6b9",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/ellipse_0.5.0.tgz": {
+      "source": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/ellipse_0.5.0.tgz",
+      "sha256": "ad8f45bffce27bb3cef3d420f75022d678e91c618ca7ec8131367e70f400859a",
+      "reasons": [
+        "mada browser R dependency: ellipse"
+      ],
+      "upstream_blob_sha256": "ad8f45bffce27bb3cef3d420f75022d678e91c618ca7ec8131367e70f400859a",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/mada_0.5.12.tgz": {
+      "source": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/mada_0.5.12.tgz",
+      "sha256": "3d31a9da554be5cfd5f35cd1acae8410681c051558810720a045bb16ff2a6a0e",
+      "reasons": [
+        "mada browser R dependency: mada"
+      ],
+      "upstream_blob_sha256": "3d31a9da554be5cfd5f35cd1acae8410681c051558810720a045bb16ff2a6a0e",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/mixmeta_1.2.2.tgz": {
+      "source": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/mixmeta_1.2.2.tgz",
+      "sha256": "3936239f86c341836adb2c6a0c353b657a49c04c56e25b405c385de2fccbab17",
+      "reasons": [
+        "mada browser R dependency: mixmeta"
+      ],
+      "upstream_blob_sha256": "3936239f86c341836adb2c6a0c353b657a49c04c56e25b405c385de2fccbab17",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/mvmeta_1.0.3.tgz": {
+      "source": "r-shiny/shinylive/webr/repo/bin/emscripten/contrib/4.5/mvmeta_1.0.3.tgz",
+      "sha256": "37d448220b5b0c4da2b22e7c372986ede7df06837cf0d8222e3b62efae820017",
+      "reasons": [
+        "mada browser R dependency: mvmeta"
+      ],
+      "upstream_blob_sha256": "37d448220b5b0c4da2b22e7c372986ede7df06837cf0d8222e3b62efae820017",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/repo/manifest.json": {
+      "source": "r-shiny/shinylive/webr/repo/manifest.json",
+      "sha256": "4d356533f751abeea8d2e32ceb5948ef100aff865ce09a233b1f6c578ae53313",
+      "reasons": [
+        "webR runtime dynamic resource"
+      ],
+      "upstream_blob_sha256": "4d356533f751abeea8d2e32ceb5948ef100aff865ce09a233b1f6c578ae53313",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/etc/fonts/fonts.conf": {
+      "source": "r-shiny/shinylive/webr/vfs/etc/fonts/fonts.conf",
+      "sha256": "a93efbf9eec83d72a463f1d52f54043a8afa6ae7cc05609deda73232525e7bc0",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "a93efbf9eec83d72a463f1d52f54043a8afa6ae7cc05609deda73232525e7bc0",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/etc/ssl/cert.pem": {
+      "source": "r-shiny/shinylive/webr/vfs/etc/ssl/cert.pem",
+      "sha256": "64dfd5b1026700e0a0a324964749da9adc69ae5e51e899bf16ff47d6fd0e9a5e",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "64dfd5b1026700e0a0a324964749da9adc69ae5e51e899bf16ff47d6fd0e9a5e",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/doc.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/doc.data.gz",
+      "sha256": "887c1c88e741e0735974c43bd75cfe7d623f3b3e0f85990bde05334986362b7e",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "887c1c88e741e0735974c43bd75cfe7d623f3b3e0f85990bde05334986362b7e",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/doc.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/doc.js.metadata",
+      "sha256": "85321ed71f8776da09c409982d3cfd212245c61c8bc228cb59c5d4676f3d4d10",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "85321ed71f8776da09c409982d3cfd212245c61c8bc228cb59c5d4676f3d4d10",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/base/demo.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/base/demo.data.gz",
+      "sha256": "772f6b5678ba0221f6fb59f142ebe5fe619988b5e1f0fcb1114a9e9f505feacf",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "772f6b5678ba0221f6fb59f142ebe5fe619988b5e1f0fcb1114a9e9f505feacf",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/base/demo.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/base/demo.js.metadata",
+      "sha256": "817a60920b30a5cb29e39c4e3fd3778de49c84555c4bd7f5ad6b79da69671653",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "817a60920b30a5cb29e39c4e3fd3778de49c84555c4bd7f5ad6b79da69671653",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/base/help.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/base/help.data.gz",
+      "sha256": "8cbb1c69cc48b0b5b27aa8dc5b5a84418b2b6f602809d55debb57e779e6e36d4",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "8cbb1c69cc48b0b5b27aa8dc5b5a84418b2b6f602809d55debb57e779e6e36d4",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/base/help.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/base/help.js.metadata",
+      "sha256": "b038c165e4b969e1192ecd0ae6cae604fa606af558a7086a397a17bccb452d8d",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "b038c165e4b969e1192ecd0ae6cae604fa606af558a7086a397a17bccb452d8d",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/base/html.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/base/html.data.gz",
+      "sha256": "3a931d021aa201ef85f4abc0160f4441947deea8269c2d9e0eee18453f4a5a20",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "3a931d021aa201ef85f4abc0160f4441947deea8269c2d9e0eee18453f4a5a20",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/base/html.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/base/html.js.metadata",
+      "sha256": "7ec8375886b13129e2aaa7db73c9e12901c07f15d258534e94b21266d4b9ad9e",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "7ec8375886b13129e2aaa7db73c9e12901c07f15d258534e94b21266d4b9ad9e",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/compiler/help.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/compiler/help.data.gz",
+      "sha256": "e475924a020c0522c2a7b8d94616b43de6938e91550a58456c6d1fa46fbc95dc",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "e475924a020c0522c2a7b8d94616b43de6938e91550a58456c6d1fa46fbc95dc",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/compiler/help.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/compiler/help.js.metadata",
+      "sha256": "f939e01a70887408ce8164bddcb0d9198ae50a2d8b8a0808524b51ddba22f3a6",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "f939e01a70887408ce8164bddcb0d9198ae50a2d8b8a0808524b51ddba22f3a6",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/compiler/html.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/compiler/html.data.gz",
+      "sha256": "8fdf27e1bd58c64af2846d573ac602cddbe01c855d801b0350ecb200965abd4a",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "8fdf27e1bd58c64af2846d573ac602cddbe01c855d801b0350ecb200965abd4a",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/compiler/html.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/compiler/html.js.metadata",
+      "sha256": "6f42fbae51421886685ebe850df8790524f0f96d0c0c07a86a145b9779c7bf2e",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "6f42fbae51421886685ebe850df8790524f0f96d0c0c07a86a145b9779c7bf2e",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/datasets/help.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/datasets/help.data.gz",
+      "sha256": "325d74237ed06403e6ce21bb0bb205f36c790c44afe6b9dc66f33250e37a72b7",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "325d74237ed06403e6ce21bb0bb205f36c790c44afe6b9dc66f33250e37a72b7",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/datasets/help.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/datasets/help.js.metadata",
+      "sha256": "e6639c6814fcd62010cb9b5e58455d85df50b683b9fd5d93cc31b8dd11a85505",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "e6639c6814fcd62010cb9b5e58455d85df50b683b9fd5d93cc31b8dd11a85505",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/datasets/html.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/datasets/html.data.gz",
+      "sha256": "88fa5c54f90b2f808535e691bc57b4b1ee40f3adbd54982ce90ed63c0295d54c",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "88fa5c54f90b2f808535e691bc57b4b1ee40f3adbd54982ce90ed63c0295d54c",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/datasets/html.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/datasets/html.js.metadata",
+      "sha256": "d4b5aacd8b2a21ea37d3dd08e3a150017017a51c3f9704396f4e1b6c1cc1b525",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "d4b5aacd8b2a21ea37d3dd08e3a150017017a51c3f9704396f4e1b6c1cc1b525",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/afm.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/afm.data.gz",
+      "sha256": "d95b7d0680165834cec92ba66c0210dd561ada90c4fdb991b2a59f987b29ad55",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "d95b7d0680165834cec92ba66c0210dd561ada90c4fdb991b2a59f987b29ad55",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/afm.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/afm.js.metadata",
+      "sha256": "3e88061dfecc14c6cd1386be85d4fef59fe1f964312db41903e471ed74e7cf02",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "3e88061dfecc14c6cd1386be85d4fef59fe1f964312db41903e471ed74e7cf02",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/demo.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/demo.data.gz",
+      "sha256": "ed6fdbda792afd05cadf1ca3b568873c71e62783c22784f0c5f0899a1fdf0563",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "ed6fdbda792afd05cadf1ca3b568873c71e62783c22784f0c5f0899a1fdf0563",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/demo.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/demo.js.metadata",
+      "sha256": "2a51924eaee18cbe41bfe8f11ae70f083748d97ef5cbbb77bd3c3a133eaad471",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "2a51924eaee18cbe41bfe8f11ae70f083748d97ef5cbbb77bd3c3a133eaad471",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/enc.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/enc.data.gz",
+      "sha256": "4ffa00c91977c5feed5cbdfec4ed8ae3fb023dc6e9fa3a305551d963305eb6e5",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "4ffa00c91977c5feed5cbdfec4ed8ae3fb023dc6e9fa3a305551d963305eb6e5",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/enc.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/enc.js.metadata",
+      "sha256": "fd6fb479b499da19fe442318ac147bdda2557a087ff19acda5a220fbe6686617",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "fd6fb479b499da19fe442318ac147bdda2557a087ff19acda5a220fbe6686617",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/fonts.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/fonts.data.gz",
+      "sha256": "1826792690ca81c105bedd79f0399033ae3fa434213d764039927b72f981edb7",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "1826792690ca81c105bedd79f0399033ae3fa434213d764039927b72f981edb7",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/fonts.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/fonts.js.metadata",
+      "sha256": "a59f1e81fa5a21f6b6fb91b6a51ad9944cff3283d5891c9427a3702573b6d65c",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "a59f1e81fa5a21f6b6fb91b6a51ad9944cff3283d5891c9427a3702573b6d65c",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/help.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/help.data.gz",
+      "sha256": "0f9051c914c9930a582f490d9e4adc573027c9c1259f81976e55914e488e9dd6",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "0f9051c914c9930a582f490d9e4adc573027c9c1259f81976e55914e488e9dd6",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/help.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/help.js.metadata",
+      "sha256": "a99e271e1a105458622e9a7e8272fa59c3469d85e29f66c4d20c0049e6fb28fd",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "a99e271e1a105458622e9a7e8272fa59c3469d85e29f66c4d20c0049e6fb28fd",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/html.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/html.data.gz",
+      "sha256": "c1d09b0e77ea023bfc05e878e1c5f96378b52c91c4fc631b82cf120ac5a238ae",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "c1d09b0e77ea023bfc05e878e1c5f96378b52c91c4fc631b82cf120ac5a238ae",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/html.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/html.js.metadata",
+      "sha256": "c2ee0a61b09077dfdd2298c7ddbde6c70dd9a1a35770d6dba0040bb227f25a6e",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "c2ee0a61b09077dfdd2298c7ddbde6c70dd9a1a35770d6dba0040bb227f25a6e",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/libs.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/libs.data.gz",
+      "sha256": "99f073ec90fa44ed05a386e055a67d4055583e43f876cc0061c75bd9f81cd8f1",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "99f073ec90fa44ed05a386e055a67d4055583e43f876cc0061c75bd9f81cd8f1",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/libs.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/grDevices/libs.js.metadata",
+      "sha256": "3483a14261dd380a6d1e643312773c340356c064451525ecfd2db9324aa7a259",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "3483a14261dd380a6d1e643312773c340356c064451525ecfd2db9324aa7a259",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/graphics/demo.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/graphics/demo.data.gz",
+      "sha256": "6c4b104739383f64d792e27a7aabfaebbfab648ac70848d01dfbf4b59da8804b",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "6c4b104739383f64d792e27a7aabfaebbfab648ac70848d01dfbf4b59da8804b",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/graphics/demo.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/graphics/demo.js.metadata",
+      "sha256": "0aa484bd6c0eb0f9055a7bdd206c6162016cc84147ea1bf3229671cd56f09898",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "0aa484bd6c0eb0f9055a7bdd206c6162016cc84147ea1bf3229671cd56f09898",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/graphics/help.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/graphics/help.data.gz",
+      "sha256": "53dad1bed33cc28640906f21328a77ff115a24c0796216bc97299aff1e41865d",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "53dad1bed33cc28640906f21328a77ff115a24c0796216bc97299aff1e41865d",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/graphics/help.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/graphics/help.js.metadata",
+      "sha256": "57c883a8537ec63d79ae4b84f2b9ac5add8c43b151e3f66972c670610e174fb2",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "57c883a8537ec63d79ae4b84f2b9ac5add8c43b151e3f66972c670610e174fb2",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/graphics/html.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/graphics/html.data.gz",
+      "sha256": "41fc071f1c195d8dcd919862437e6504426a98448594c32b4eabf060de335457",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "41fc071f1c195d8dcd919862437e6504426a98448594c32b4eabf060de335457",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/graphics/html.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/graphics/html.js.metadata",
+      "sha256": "8d19a817255db58f27a72799be256af0ca593575f0290e1d631cf677491a10de",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "8d19a817255db58f27a72799be256af0ca593575f0290e1d631cf677491a10de",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/grid/doc.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/grid/doc.data.gz",
+      "sha256": "9342b5982ba2b0298026763d29cc3ef4f8aec5a66e8edd34672e4f6ee3305ad1",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "9342b5982ba2b0298026763d29cc3ef4f8aec5a66e8edd34672e4f6ee3305ad1",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/grid/doc.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/grid/doc.js.metadata",
+      "sha256": "1492f7f6298a84226691eaec51ba29879aec29b23b23c1c9e86b04fd34a98eb9",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "1492f7f6298a84226691eaec51ba29879aec29b23b23c1c9e86b04fd34a98eb9",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/grid/help.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/grid/help.data.gz",
+      "sha256": "4a48a2c967d342b5390e95337a80963daa8265a49389d5efff2d5663ce5b20a4",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "4a48a2c967d342b5390e95337a80963daa8265a49389d5efff2d5663ce5b20a4",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/grid/help.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/grid/help.js.metadata",
+      "sha256": "674da892fe4074453bdf6285abb98568f9ce2edf60db56c6445f1334a58b1f97",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "674da892fe4074453bdf6285abb98568f9ce2edf60db56c6445f1334a58b1f97",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/grid/html.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/grid/html.data.gz",
+      "sha256": "f14463fe8b85ff8fac3f41b0af9cbcf34a85d739582c2bbd1c2219fc5e51cc22",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "f14463fe8b85ff8fac3f41b0af9cbcf34a85d739582c2bbd1c2219fc5e51cc22",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/grid/html.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/grid/html.js.metadata",
+      "sha256": "3dbebe2fffc3f9259aa2cf993df381ae3343d02de63b07404f010ec7114a9868",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "3dbebe2fffc3f9259aa2cf993df381ae3343d02de63b07404f010ec7114a9868",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/methods/help.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/methods/help.data.gz",
+      "sha256": "1e56466ed776939e30ce0d5e85b1043c67c759d0d365743f3083d002cedf8475",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "1e56466ed776939e30ce0d5e85b1043c67c759d0d365743f3083d002cedf8475",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/methods/help.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/methods/help.js.metadata",
+      "sha256": "a284ff3a4afce49cbaa34d97ff4f1f1553c5ce220c2be76e06ad39434920c7a1",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "a284ff3a4afce49cbaa34d97ff4f1f1553c5ce220c2be76e06ad39434920c7a1",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/methods/html.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/methods/html.data.gz",
+      "sha256": "19daad56196824107a9620a150260c8e7fd88cedd35365ef81a5a98d9718fc1b",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "19daad56196824107a9620a150260c8e7fd88cedd35365ef81a5a98d9718fc1b",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/methods/html.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/methods/html.js.metadata",
+      "sha256": "4d671864220e6ddf865f5fff0a516884de4c388a2bc1bace13ffef35b281f3f8",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "4d671864220e6ddf865f5fff0a516884de4c388a2bc1bace13ffef35b281f3f8",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/parallel.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/parallel.data.gz",
+      "sha256": "90751479399d096105e6242c4af49bfa1c022d3a5ebb11601a232485f110715d",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "90751479399d096105e6242c4af49bfa1c022d3a5ebb11601a232485f110715d",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/parallel.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/parallel.js.metadata",
+      "sha256": "cf8702f3ee1cb7632513c70fd22a3d369dfe1d5838f2661a8829af51cfe3704d",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "cf8702f3ee1cb7632513c70fd22a3d369dfe1d5838f2661a8829af51cfe3704d",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/splines/help.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/splines/help.data.gz",
+      "sha256": "2d79395f95b494f303802e568ccc6720257a7392bedca2b6179ab1b8630787a8",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "2d79395f95b494f303802e568ccc6720257a7392bedca2b6179ab1b8630787a8",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/splines/help.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/splines/help.js.metadata",
+      "sha256": "d0be90bd0416b5f0b524ee5865a5e0053b117ce12965604af1244b5a408bc1c8",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "d0be90bd0416b5f0b524ee5865a5e0053b117ce12965604af1244b5a408bc1c8",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/splines/html.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/splines/html.data.gz",
+      "sha256": "28cef69dd383abec3438cf6bd22dc36c7eb9ce27a7351d0e993936c0ba26b15a",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "28cef69dd383abec3438cf6bd22dc36c7eb9ce27a7351d0e993936c0ba26b15a",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/splines/html.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/splines/html.js.metadata",
+      "sha256": "6b151ef53f53d0d6e0e290fa5c86291aa75d9e68de0c5d8502e19e49b42702c3",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "6b151ef53f53d0d6e0e290fa5c86291aa75d9e68de0c5d8502e19e49b42702c3",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats/demo.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats/demo.data.gz",
+      "sha256": "4192d25333397023c1d6490703afe1828d38645dbe80ed9ec21fe4e3dc6e01fd",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "4192d25333397023c1d6490703afe1828d38645dbe80ed9ec21fe4e3dc6e01fd",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats/demo.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats/demo.js.metadata",
+      "sha256": "7e537450a6855a02f5491cf22f48abed526bb1d4d2fd15d3e34725ab3667db5f",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "7e537450a6855a02f5491cf22f48abed526bb1d4d2fd15d3e34725ab3667db5f",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats/doc.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats/doc.data.gz",
+      "sha256": "b1e8474e1cf898d26d12ca49a3b3f9fca88e1ff5abdc096c85c2b6660486ee59",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "b1e8474e1cf898d26d12ca49a3b3f9fca88e1ff5abdc096c85c2b6660486ee59",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats/doc.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats/doc.js.metadata",
+      "sha256": "86cfafaa90cb278f8999e400680ae8e3c358fa756dc4289b6addc9b9a7ea6044",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "86cfafaa90cb278f8999e400680ae8e3c358fa756dc4289b6addc9b9a7ea6044",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats/help.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats/help.data.gz",
+      "sha256": "247580c268b6cfe396c599916fb3974f4730529c4dd083f5e2efe1b9533149e9",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "247580c268b6cfe396c599916fb3974f4730529c4dd083f5e2efe1b9533149e9",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats/help.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats/help.js.metadata",
+      "sha256": "b0f54f6550f90724ef4040fb491b9ed694a5d510a7b97bf5a8cc9999717e1a0c",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "b0f54f6550f90724ef4040fb491b9ed694a5d510a7b97bf5a8cc9999717e1a0c",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats/html.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats/html.data.gz",
+      "sha256": "65328c84b61dec567e259a5612897ada42d3490a8d2e1f8605cdbd253ab56aed",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "65328c84b61dec567e259a5612897ada42d3490a8d2e1f8605cdbd253ab56aed",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats/html.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats/html.js.metadata",
+      "sha256": "54cbad09aa27ec62bd4aa1ba92718a250042fd3b4d1d73726c780c0dbb49ddcc",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "54cbad09aa27ec62bd4aa1ba92718a250042fd3b4d1d73726c780c0dbb49ddcc",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats4/help.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats4/help.data.gz",
+      "sha256": "230f3316fc6d7d8e6e5cdd5f70323417a5868a8e1e5abede7bb7708861170085",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "230f3316fc6d7d8e6e5cdd5f70323417a5868a8e1e5abede7bb7708861170085",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats4/help.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats4/help.js.metadata",
+      "sha256": "6b89d9b7fbd29ab49e2475250aa299ef49a524ce67e5fe5362e03cde8c4b6624",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "6b89d9b7fbd29ab49e2475250aa299ef49a524ce67e5fe5362e03cde8c4b6624",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats4/html.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats4/html.data.gz",
+      "sha256": "3f0f747d2803168fc1ce869f523bb1a7bdabc84be1d7fae717adcb436dd9ea77",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "3f0f747d2803168fc1ce869f523bb1a7bdabc84be1d7fae717adcb436dd9ea77",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats4/html.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/stats4/html.js.metadata",
+      "sha256": "cf6e0893f5b2189e07809065b918e5741709e3aabe093b614148db8a65e20491",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "cf6e0893f5b2189e07809065b918e5741709e3aabe093b614148db8a65e20491",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/tcltk.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/tcltk.data.gz",
+      "sha256": "5d5614066f11e3f0dfdf3063e62945fa6224ae6946377ac4aa81070a0fc10ade",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "5d5614066f11e3f0dfdf3063e62945fa6224ae6946377ac4aa81070a0fc10ade",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/tcltk.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/tcltk.js.metadata",
+      "sha256": "8e280be8d73ed0a5f91aad9bce625e83aa92497878ba0a7e757c9bd333254939",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "8e280be8d73ed0a5f91aad9bce625e83aa92497878ba0a7e757c9bd333254939",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/tools/help.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/tools/help.data.gz",
+      "sha256": "9c9842b625f82875f6827c15381063c8974480a8428817d3d98bd4a272f10b33",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "9c9842b625f82875f6827c15381063c8974480a8428817d3d98bd4a272f10b33",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/tools/help.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/tools/help.js.metadata",
+      "sha256": "a539c931a67085f4fc92e10f05e1cf5346003fd4a5cd825936620f890d2c88ea",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "a539c931a67085f4fc92e10f05e1cf5346003fd4a5cd825936620f890d2c88ea",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/tools/html.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/tools/html.data.gz",
+      "sha256": "9fe3623e45effd769f41881bb58457ff3058d3be12b89b946e712784c150ef8c",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "9fe3623e45effd769f41881bb58457ff3058d3be12b89b946e712784c150ef8c",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/tools/html.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/tools/html.js.metadata",
+      "sha256": "8850b7d10a8d246cc6fdaeb7b2457804792ed59318f5f4aa7544601cd7f547fe",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "8850b7d10a8d246cc6fdaeb7b2457804792ed59318f5f4aa7544601cd7f547fe",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/translations.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/translations.data.gz",
+      "sha256": "5de5454ab449955e417537890300339b6b9157c3c0da7244736f43bbceac27fa",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "5de5454ab449955e417537890300339b6b9157c3c0da7244736f43bbceac27fa",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/translations.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/translations.js.metadata",
+      "sha256": "869d3dcee3b1847b2696d8ac034c54ba07bccf1834569b32a3c2cd45e9db5187",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "869d3dcee3b1847b2696d8ac034c54ba07bccf1834569b32a3c2cd45e9db5187",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/translations/DESCRIPTION": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/translations/DESCRIPTION",
+      "sha256": "a18e8de33ac6c3e11df8495cee818d7a6caddeae9ae1269892fc590f5d6172ab",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "pre_redaction_checkout_sha256": "60572e3af9d3e193ae059f13ff71dfbf2d5df92662d77a9225fe73c6e14e1a5a",
+      "privacy_redacted": true,
+      "upstream_blob_sha256": "60572e3af9d3e193ae059f13ff71dfbf2d5df92662d77a9225fe73c6e14e1a5a"
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/utils/doc.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/utils/doc.data.gz",
+      "sha256": "37fd2e497f368cccb7230646a4f4283713780fab70f02eb9feacca723adcd713",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "37fd2e497f368cccb7230646a4f4283713780fab70f02eb9feacca723adcd713",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/utils/doc.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/utils/doc.js.metadata",
+      "sha256": "14cf4d60dc5883215a640367a659d6f5edd2c33f5f144eff43c34511a19909c4",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "14cf4d60dc5883215a640367a659d6f5edd2c33f5f144eff43c34511a19909c4",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/utils/help.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/utils/help.data.gz",
+      "sha256": "9dc4534458e11fa5445d055ad08e9f1b1834f6cdcf35f1e4e4aeeef9657e3b39",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "9dc4534458e11fa5445d055ad08e9f1b1834f6cdcf35f1e4e4aeeef9657e3b39",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/utils/help.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/utils/help.js.metadata",
+      "sha256": "90648b188ecabf03e7165be6248e8eb44a4ee7e078ec3fdd5e14b7c97cffb863",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "90648b188ecabf03e7165be6248e8eb44a4ee7e078ec3fdd5e14b7c97cffb863",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/utils/html.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/utils/html.data.gz",
+      "sha256": "40bcc32abface1e76dba300b3bd763cceb5a9bd31a9b0a9dd323d3ff49a0ed4f",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "40bcc32abface1e76dba300b3bd763cceb5a9bd31a9b0a9dd323d3ff49a0ed4f",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/utils/html.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/utils/html.js.metadata",
+      "sha256": "e0db425a6b58930ad312c46d04ea70849d85660d1409188bcef67064d522d26b",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "e0db425a6b58930ad312c46d04ea70849d85660d1409188bcef67064d522d26b",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/utils/misc.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/utils/misc.data.gz",
+      "sha256": "bd524472fa716f37abf3830258281489b3ac3fca9421e45e89b79db4fbbb6ce7",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "bd524472fa716f37abf3830258281489b3ac3fca9421e45e89b79db4fbbb6ce7",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/utils/misc.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/utils/misc.js.metadata",
+      "sha256": "7e248a6c0ce276772fe22eb83d49128393be9e674e322ab0ce57905e83e6709b",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "7e248a6c0ce276772fe22eb83d49128393be9e674e322ab0ce57905e83e6709b",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/webr/help.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/webr/help.data.gz",
+      "sha256": "b04fcb9a8b51a8676c84f157343033804b37c29be6b7936372dcf584e3f060b4",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "b04fcb9a8b51a8676c84f157343033804b37c29be6b7936372dcf584e3f060b4",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/webr/help.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/webr/help.js.metadata",
+      "sha256": "5531acaa2b4c41ef9230f2b7fa3dc968b2ee7f083253b6fa93aabffc3c20a465",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "5531acaa2b4c41ef9230f2b7fa3dc968b2ee7f083253b6fa93aabffc3c20a465",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/webr/html.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/webr/html.data.gz",
+      "sha256": "06b2081b8ae8a4578897e686fd15f0a99b1f4ae2a9e2e9c6dcc298775a3e594d",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "06b2081b8ae8a4578897e686fd15f0a99b1f4ae2a9e2e9c6dcc298775a3e594d",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/webr/html.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/library/webr/html.js.metadata",
+      "sha256": "ac453f4c063bc86d1ca8b2dae973a1965954105511064adc59354e322456fe6d",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "ac453f4c063bc86d1ca8b2dae973a1965954105511064adc59354e322456fe6d",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/share.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/share.data.gz",
+      "sha256": "0d3350121013e15fc1543607f3af82d1b34057fb3bf4c7f8912580a9cc87e300",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "0d3350121013e15fc1543607f3af82d1b34057fb3bf4c7f8912580a9cc87e300",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/share.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/lib/R/share.js.metadata",
+      "sha256": "0aeec810fca7698d8813518a30e02b3b3ee9694c09361ea20132dbecbc14b93f",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "0aeec810fca7698d8813518a30e02b3b3ee9694c09361ea20132dbecbc14b93f",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/share/fonts/NotoSans-Bold.ttf": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/share/fonts/NotoSans-Bold.ttf",
+      "sha256": "87cb2d84472a7d66da659ee47b6cdb9552326e8c128245231f191b6ac72529d9",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "87cb2d84472a7d66da659ee47b6cdb9552326e8c128245231f191b6ac72529d9",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/share/fonts/NotoSans-BoldItalic.ttf": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/share/fonts/NotoSans-BoldItalic.ttf",
+      "sha256": "3d367743f371f28671d2764e911a53d7c20ec9b6aa8791d059e7090389fc52a5",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "3d367743f371f28671d2764e911a53d7c20ec9b6aa8791d059e7090389fc52a5",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/share/fonts/NotoSans-Italic.ttf": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/share/fonts/NotoSans-Italic.ttf",
+      "sha256": "678288f868807d4d64a6f3b51466871d117d915780381ce9d0ed4b3bcbd06d37",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "678288f868807d4d64a6f3b51466871d117d915780381ce9d0ed4b3bcbd06d37",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/share/fonts/NotoSans-Regular.ttf": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/share/fonts/NotoSans-Regular.ttf",
+      "sha256": "f3961a9cde016d41a4879aecda1474d3a36d6bf54fa0e4643de029cc2248b0e8",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "f3961a9cde016d41a4879aecda1474d3a36d6bf54fa0e4643de029cc2248b0e8",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/share/fonts/NotoSansMono-Bold.ttf": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/share/fonts/NotoSansMono-Bold.ttf",
+      "sha256": "1100772b2f79c102402a1011df5e2226517d0f40ac553a25fb12fdbad8c11b85",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "1100772b2f79c102402a1011df5e2226517d0f40ac553a25fb12fdbad8c11b85",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/share/fonts/NotoSansMono-Regular.ttf": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/share/fonts/NotoSansMono-Regular.ttf",
+      "sha256": "87f8ce0522a6c99b743ee5fc75b4073cfdd575639119672828b7b9944b65b4f4",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "87f8ce0522a6c99b743ee5fc75b4073cfdd575639119672828b7b9944b65b4f4",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/share/fonts/NotoSerif-Bold.ttf": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/share/fonts/NotoSerif-Bold.ttf",
+      "sha256": "24ad531e6b05ddad8c3d89572d2c93eb86a6b74e652ce7ee3c3e171de68e84c3",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "24ad531e6b05ddad8c3d89572d2c93eb86a6b74e652ce7ee3c3e171de68e84c3",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/share/fonts/NotoSerif-BoldItalic.ttf": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/share/fonts/NotoSerif-BoldItalic.ttf",
+      "sha256": "1bc4f86502eaa368718f6192bee022ea9a703d5af1c18b7d291212657b63074a",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "1bc4f86502eaa368718f6192bee022ea9a703d5af1c18b7d291212657b63074a",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/share/fonts/NotoSerif-Italic.ttf": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/share/fonts/NotoSerif-Italic.ttf",
+      "sha256": "c4b3c971741ecdb40f5a443bce754e8fe91efe761b6ea10c92be7c3597cdadc4",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "c4b3c971741ecdb40f5a443bce754e8fe91efe761b6ea10c92be7c3597cdadc4",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/share/fonts/NotoSerif-Regular.ttf": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/share/fonts/NotoSerif-Regular.ttf",
+      "sha256": "a15cfbbc1539d707115111d672d590a3d70d4f74b4c0a315956da20ae19a14e1",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "a15cfbbc1539d707115111d672d590a3d70d4f74b4c0a315956da20ae19a14e1",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/share/gdal.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/share/gdal.data.gz",
+      "sha256": "edbe02e9726b9df97c074d21c8833400a24cf39c25f4875126ad958ba978e4fa",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "edbe02e9726b9df97c074d21c8833400a24cf39c25f4875126ad958ba978e4fa",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/share/gdal.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/share/gdal.js.metadata",
+      "sha256": "de403ded38013ab57931a862d14bcdc33b09997c70de1587ec6719f94360ab25",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "de403ded38013ab57931a862d14bcdc33b09997c70de1587ec6719f94360ab25",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/share/proj.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/share/proj.data.gz",
+      "sha256": "95a64391f05c0254b5b4d70e200d863fc0ba5e819bfff8eae89cc446b790a8e4",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "95a64391f05c0254b5b4d70e200d863fc0ba5e819bfff8eae89cc446b790a8e4",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/share/proj.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/share/proj.js.metadata",
+      "sha256": "adc4c33a8c963b5059402a2132c59811016cc9c48286b6bd43e68b347a5f4c0c",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "adc4c33a8c963b5059402a2132c59811016cc9c48286b6bd43e68b347a5f4c0c",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/share/udunits.data.gz": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/share/udunits.data.gz",
+      "sha256": "2e3de6659d9ec9192fcb669fc39dfb6e37871e705054b21a404571d4301290bb",
+      "reasons": [
+        "r-shiny/shinylive/webr/R.js",
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "2e3de6659d9ec9192fcb669fc39dfb6e37871e705054b21a404571d4301290bb",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/usr/share/udunits.js.metadata": {
+      "source": "r-shiny/shinylive/webr/vfs/usr/share/udunits.js.metadata",
+      "sha256": "9f8ac349f1d68c23e4d2a4790e328ab3ecc38cd84ef993592170b7d19ef1b6a6",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "9f8ac349f1d68c23e4d2a4790e328ab3ecc38cd84ef993592170b7d19ef1b6a6",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/var/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le32d8.cache-9": {
+      "source": "r-shiny/shinylive/webr/vfs/var/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le32d8.cache-9",
+      "sha256": "68881241850600c0def90ccf0e69fd0430122889450e7be0aa9cd872a7ac70c2",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "68881241850600c0def90ccf0e69fd0430122889450e7be0aa9cd872a7ac70c2",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/vfs/var/cache/fontconfig/CACHEDIR.TAG": {
+      "source": "r-shiny/shinylive/webr/vfs/var/cache/fontconfig/CACHEDIR.TAG",
+      "sha256": "05e7633fb31bf1f6f8d89020c16b9f24587fdf7638e951c9745b192f5fc3b682",
+      "reasons": [
+        "webR R.js lazy virtual filesystem"
+      ],
+      "upstream_blob_sha256": "05e7633fb31bf1f6f8d89020c16b9f24587fdf7638e951c9745b192f5fc3b682",
+      "privacy_redacted": false
+    },
+    "app/r-shiny/shinylive/webr/webr-worker.js": {
+      "source": "r-shiny/shinylive/webr/webr-worker.js",
+      "sha256": "1b630a4ac77db6f6452a4cdd3ca179d3fb49410213bc1614a533f05d7f17c23d",
+      "reasons": [
+        "webR runtime dynamic resource"
+      ],
+      "pre_redaction_checkout_sha256": "02b331738a4948307e6ffa017dec510acf588472e9cddfb44a5e29a814a87435",
+      "privacy_redacted": true,
+      "upstream_blob_sha256": "02b331738a4948307e6ffa017dec510acf588472e9cddfb44a5e29a814a87435"
+    },
+    "app/r-shiny/shinylive/webr/webr.mjs": {
+      "source": "r-shiny/shinylive/webr/webr.mjs",
+      "sha256": "6a13290796384d4f16d6e5be359dd3c3e4b494f02411a8440cba0360bed42bb9",
+      "reasons": [
+        "webR runtime dynamic resource"
+      ],
+      "upstream_blob_sha256": "6a13290796384d4f16d6e5be359dd3c3e4b494f02411a8440cba0360bed42bb9",
+      "privacy_redacted": false
+    },
+    "app/shared/alm-validate.js": {
+      "source": "shared/alm-validate.js",
+      "sha256": "3edd60412195ed34a0890ffc68fa32401d2f375f8a1055cba68ed069afd61e85",
+      "reasons": [
+        "dta-sroc/index.html"
+      ],
+      "upstream_blob_sha256": "3edd60412195ed34a0890ffc68fa32401d2f375f8a1055cba68ed069afd61e85",
+      "privacy_redacted": false
+    },
+    "app/shared/autosave.js": {
+      "source": "shared/autosave.js",
+      "sha256": "919165910d2b46a674b5ec1c81c01bce4d3c0779a86232ec032c994274980f1c",
+      "reasons": [
+        "dta-sroc/index.html",
+        "existing archived app path"
+      ],
+      "upstream_blob_sha256": "919165910d2b46a674b5ec1c81c01bce4d3c0779a86232ec032c994274980f1c",
+      "privacy_redacted": false
+    },
+    "app/shared/build-info.js": {
+      "source": "shared/build-info.js",
+      "sha256": "232a5a903b1fcc451fede886d11688a80c0dce736d60a3613cc8ef5d41c94668",
+      "reasons": [
+        "dta-sroc/index.html",
+        "existing archived app path"
+      ],
+      "upstream_blob_sha256": "232a5a903b1fcc451fede886d11688a80c0dce736d60a3613cc8ef5d41c94668",
+      "privacy_redacted": false
+    },
+    "app/shared/dta-bivariate.js": {
+      "source": "shared/dta-bivariate.js",
+      "sha256": "5c05f1870ff6c8ccb0be1640ab411a61ba2068c2586b9fe44572c7301a6bb3fc",
+      "reasons": [
+        "dta-sroc/index.html",
+        "existing archived app path"
+      ],
+      "upstream_blob_sha256": "5c05f1870ff6c8ccb0be1640ab411a61ba2068c2586b9fe44572c7301a6bb3fc",
+      "privacy_redacted": false
+    },
+    "app/shared/forced-colors.css": {
+      "source": "shared/forced-colors.css",
+      "sha256": "a26b396b0b5b683ea06fca129855e3aba34805348e2d8d4e811ef74b44f5e96e",
+      "reasons": [
+        "dta-sroc/index.html",
+        "dta-sroc/validate/plus-reference-frame.html",
+        "existing archived app path"
+      ],
+      "upstream_blob_sha256": "a26b396b0b5b683ea06fca129855e3aba34805348e2d8d4e811ef74b44f5e96e",
+      "privacy_redacted": false
+    },
+    "app/shared/ma-studies-v1.js": {
+      "source": "shared/ma-studies-v1.js",
+      "sha256": "416fce0f8ec6432e432c050f9bfc9005d74ac5ad389744198d8530ea6096cb11",
+      "reasons": [
+        "dta-sroc/index.html",
+        "existing archived app path",
+        "shared/ma-studies-v1.js"
+      ],
+      "upstream_blob_sha256": "416fce0f8ec6432e432c050f9bfc9005d74ac5ad389744198d8530ea6096cb11",
+      "privacy_redacted": false
+    },
+    "app/shared/toast.js": {
+      "source": "shared/toast.js",
+      "sha256": "a16ec25ea32b099184047a8b006087e370fcd68e095ed6732852bc0843ba1be6",
+      "reasons": [
+        "dta-sroc/index.html",
+        "existing archived app path",
+        "shared/toast.js"
+      ],
+      "upstream_blob_sha256": "a16ec25ea32b099184047a8b006087e370fcd68e095ed6732852bc0843ba1be6",
+      "privacy_redacted": false
+    },
+    "app/shared/truthcert-export.js": {
+      "source": "shared/truthcert-export.js",
+      "sha256": "334cd22183ca60f18d8ab17ec335480bd352ea7f581ca89cdfabf5ee14fbf694",
+      "reasons": [
+        "hub/shared/plot-export.js"
+      ],
+      "upstream_blob_sha256": "334cd22183ca60f18d8ab17ec335480bd352ea7f581ca89cdfabf5ee14fbf694",
+      "privacy_redacted": false
+    },
+    "app/shared/webr-runner.js": {
+      "source": "shared/webr-runner.js",
+      "sha256": "ff7fb19de7d5c7678c809cb0bb6366763e861276b8b9fd848373aa028f978f32",
+      "reasons": [
+        "dta-sroc/index.html",
+        "shared/alm-validate.js"
+      ],
+      "upstream_blob_sha256": "ff7fb19de7d5c7678c809cb0bb6366763e861276b8b9fd848373aa028f978f32",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/adapter.js": {
+      "source": "dta-sroc/validate/adapter.js",
+      "sha256": "36b5dd8f572f4e3638e0e895b7b40c90623d52ee7d118818cadbd7f27b072c66",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "36b5dd8f572f4e3638e0e895b7b40c90623d52ee7d118818cadbd7f27b072c66",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/browser-plus-summary.json": {
+      "source": "dta-sroc/validate/browser-plus-summary.json",
+      "sha256": "031b1835634fccc1c681aad5d8a57a3e020a3a2da9e1e7365a8ac7f07cbcb301",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "031b1835634fccc1c681aad5d8a57a3e020a3a2da9e1e7365a8ac7f07cbcb301",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/check-live-plus.mjs": {
+      "source": "dta-sroc/validate/check-live-plus.mjs",
+      "sha256": "4f153858bacf61d12f6f1f6a4842e42a9caee07157874917cfa80674240bbca3",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "4f153858bacf61d12f6f1f6a4842e42a9caee07157874917cfa80674240bbca3",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/check-plus-raw.mjs": {
+      "source": "dta-sroc/validate/check-plus-raw.mjs",
+      "sha256": "f36f4639cfcd34f6e62377b5795c6a6f82fd99a4eccabf766347703a818b1b42",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "f36f4639cfcd34f6e62377b5795c6a6f82fd99a4eccabf766347703a818b1b42",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/check-plus.json": {
+      "source": "dta-sroc/validate/check-plus.json",
+      "sha256": "9d8cb3afbad71cfae24adba0ecc970a1620849aa97c85690d63881b6d7796ac8",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "9d8cb3afbad71cfae24adba0ecc970a1620849aa97c85690d63881b6d7796ac8",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/check-plus.mjs": {
+      "source": "dta-sroc/validate/check-plus.mjs",
+      "sha256": "ae3692eb68a788ffba2981b285e971c9dbdb3dc55d336ba0aec77381aa38506c",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "ae3692eb68a788ffba2981b285e971c9dbdb3dc55d336ba0aec77381aa38506c",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/controls-plus.R": {
+      "source": "dta-sroc/validate/controls-plus.R",
+      "sha256": "e40d6f2769dbbdcf5861057072545def928709c8ed9a0fec82d2467f1a82903b",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "e40d6f2769dbbdcf5861057072545def928709c8ed9a0fec82d2467f1a82903b",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/generate-plus-raw.log": {
+      "source": "dta-sroc/validate/generate-plus-raw.log",
+      "sha256": "39ee361be7b59f7be7d879b17d592513fae79e4327d8f13c9508477466c7e897",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "pre_redaction_checkout_sha256": "88281e3aaa1b2a73c5176683ef4260391e6cb058c9b754f591c64ded672c3f5c",
+      "privacy_redacted": true,
+      "upstream_blob_sha256": "88281e3aaa1b2a73c5176683ef4260391e6cb058c9b754f591c64ded672c3f5c"
+    },
+    "validation-plus/dta-sroc/validate/generate-plus-raw.R": {
+      "source": "dta-sroc/validate/generate-plus-raw.R",
+      "sha256": "50e79cb8318f1499b58266de265efb0c314ed6516326dbff4a108995f8c80e27",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "50e79cb8318f1499b58266de265efb0c314ed6516326dbff4a108995f8c80e27",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/generate-plus.log": {
+      "source": "dta-sroc/validate/generate-plus.log",
+      "sha256": "a91df688912467b0ddda7633e17a352d247a5bdc397499d1111d88fb131dde9a",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "pre_redaction_checkout_sha256": "47a857ed3628b1cebac98370d9b01154e06fda44feff14197fae56d589d3817f",
+      "privacy_redacted": true,
+      "upstream_blob_sha256": "47a857ed3628b1cebac98370d9b01154e06fda44feff14197fae56d589d3817f"
+    },
+    "validation-plus/dta-sroc/validate/generate-plus.R": {
+      "source": "dta-sroc/validate/generate-plus.R",
+      "sha256": "e498de39beaf37738a3c5b3c4b30da5e708def71ac3181d3fb8d9fe8f373a938",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "e498de39beaf37738a3c5b3c4b30da5e708def71ac3181d3fb8d9fe8f373a938",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/inspect-plus.log": {
+      "source": "dta-sroc/validate/inspect-plus.log",
+      "sha256": "3137a95673eaa4c60d64be83e32c2ee8cb6bf4ea9d56c36772b2599c2ba879f5",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "pre_redaction_checkout_sha256": "5adcc9f5813ea35599d1d48311537e489a14d7a837de8c61e165f65ba33a1363",
+      "privacy_redacted": true,
+      "upstream_blob_sha256": "5adcc9f5813ea35599d1d48311537e489a14d7a837de8c61e165f65ba33a1363"
+    },
+    "validation-plus/dta-sroc/validate/inspect-plus.R": {
+      "source": "dta-sroc/validate/inspect-plus.R",
+      "sha256": "bd85099ae70b6c4ddd92438aa43dd647ca702a52f29e07faf26454253d946429",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "bd85099ae70b6c4ddd92438aa43dd647ca702a52f29e07faf26454253d946429",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/inventory-plus.log": {
+      "source": "dta-sroc/validate/inventory-plus.log",
+      "sha256": "93853c7b839038b9cdf7638bfcd5124a355be2e55731aa7a53f3b3530245964d",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "pre_redaction_checkout_sha256": "74030952c6cec2154085f288f6def94293efd2bae572ae59d2a948d6a945575c",
+      "privacy_redacted": true,
+      "upstream_blob_sha256": "74030952c6cec2154085f288f6def94293efd2bae572ae59d2a948d6a945575c"
+    },
+    "validation-plus/dta-sroc/validate/inventory-plus.R": {
+      "source": "dta-sroc/validate/inventory-plus.R",
+      "sha256": "10df0fadf5abaf5c3d9e35f47b35fb8a44d86f939a9f6b8a67a1d4e37b89dc15",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "10df0fadf5abaf5c3d9e35f47b35fb8a44d86f939a9f6b8a67a1d4e37b89dc15",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/live-generated-plus.R": {
+      "source": "dta-sroc/validate/live-generated-plus.R",
+      "sha256": "fabde2e175856ebdfae420314044d0673cd69c5ecb655a2b6cb7a4115b2e2c24",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "fabde2e175856ebdfae420314044d0673cd69c5ecb655a2b6cb7a4115b2e2c24",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/live-plus.json": {
+      "source": "dta-sroc/validate/live-plus.json",
+      "sha256": "94254e6b37d0af4e37a4e72776397a4d843606bdd0487465e13fd6edb35016c0",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "94254e6b37d0af4e37a4e72776397a4d843606bdd0487465e13fd6edb35016c0",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/live-plus.log": {
+      "source": "dta-sroc/validate/live-plus.log",
+      "sha256": "1d9d59ba5787e6caa36181bf0176f21f916ec5c145aeee910d7bdbde521f21ae",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "pre_redaction_checkout_sha256": "44766427636db5b46f9143dc3578068aa65ad8af18f2ddecaed623b22b7c24ca",
+      "privacy_redacted": true,
+      "upstream_blob_sha256": "44766427636db5b46f9143dc3578068aa65ad8af18f2ddecaed623b22b7c24ca"
+    },
+    "validation-plus/dta-sroc/validate/MANIFEST-plus-raw.json": {
+      "source": "dta-sroc/validate/MANIFEST-plus-raw.json",
+      "sha256": "10b68be7669cbe31d3efa9081b7aac9cf29b19c37731390090982967c73fa93d",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "10b68be7669cbe31d3efa9081b7aac9cf29b19c37731390090982967c73fa93d",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/MANIFEST-plus.json": {
+      "source": "dta-sroc/validate/MANIFEST-plus.json",
+      "sha256": "c65554f54c912a476943a62d5831dac4ef1ce029f8871f08ed49f1bddecaf889",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "c65554f54c912a476943a62d5831dac4ef1ce029f8871f08ed49f1bddecaf889",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/MANIFEST.json": {
+      "source": "dta-sroc/validate/MANIFEST.json",
+      "sha256": "75fa9bea28f0063a5c01eb02366cea248505452ca061b7714c1b961f45345a49",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "75fa9bea28f0063a5c01eb02366cea248505452ca061b7714c1b961f45345a49",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/original-after-plus.json": {
+      "source": "dta-sroc/validate/original-after-plus.json",
+      "sha256": "a4b997d7e7e7a75fd5e97d10441c01454538f9693bb6d3f50402ba98324d9e80",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "a4b997d7e7e7a75fd5e97d10441c01454538f9693bb6d3f50402ba98324d9e80",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/original-before-plus.json": {
+      "source": "dta-sroc/validate/original-before-plus.json",
+      "sha256": "43b4073de186088bfeb7cd31905e58dc2ab8b3e55d8aa6c5c4c31c53426fb95b",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "43b4073de186088bfeb7cd31905e58dc2ab8b3e55d8aa6c5c4c31c53426fb95b",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pin-plus.mjs": {
+      "source": "dta-sroc/validate/pin-plus.mjs",
+      "sha256": "2117199afdae48ce5451f751836341fcbaa69f6a1e2bc740876a92efcd16b42b",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "2117199afdae48ce5451f751836341fcbaa69f6a1e2bc740876a92efcd16b42b",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/playwright.pixels.config.mjs": {
+      "source": "dta-sroc/validate/playwright.pixels.config.mjs",
+      "sha256": "2ca5348330bade95fd43175edbbf07d34d2e352c615f1de9a3c3ff5d5b192d5f",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "2ca5348330bade95fd43175edbbf07d34d2e352c615f1de9a3c3ff5d5b192d5f",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/plus-adapter.js": {
+      "source": "dta-sroc/validate/plus-adapter.js",
+      "sha256": "49defb17179a6cb562847096aa28521116d2eff3fbf6b7dcff583b32eb2fa18c",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "49defb17179a6cb562847096aa28521116d2eff3fbf6b7dcff583b32eb2fa18c",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/plus-core.js": {
+      "source": "dta-sroc/validate/plus-core.js",
+      "sha256": "51951f211759a7bdb6ce13a2cf9da96cf7ec0b004191bac813b40b7f34c6e8df",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "51951f211759a7bdb6ce13a2cf9da96cf7ec0b004191bac813b40b7f34c6e8df",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/plus-pins.js": {
+      "source": "dta-sroc/validate/plus-pins.js",
+      "sha256": "62906d0eed5121e944c4db6d4e5a933ddc1d490a5dbf503ec163faafd1ab08c1",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "62906d0eed5121e944c4db6d4e5a933ddc1d490a5dbf503ec163faafd1ab08c1",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/plus-reference-frame.html": {
+      "source": "dta-sroc/validate/plus-reference-frame.html",
+      "sha256": "aceeebface49291ef97d6fdb76058ab99d0337899431d603ce33a72a6b5cd454",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "aceeebface49291ef97d6fdb76058ab99d0337899431d603ce33a72a6b5cd454",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/plus-render-reference.js": {
+      "source": "dta-sroc/validate/plus-render-reference.js",
+      "sha256": "c518cb1138944947c9dedc05bd7aeb45a435b1de9e67efaac2b312f8125baea1",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "c518cb1138944947c9dedc05bd7aeb45a435b1de9e67efaac2b312f8125baea1",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/preflight-plus.R": {
+      "source": "dta-sroc/validate/preflight-plus.R",
+      "sha256": "fa0e009d5bb85d7d8f883ed62ae5dc024a0720a1bdb247b2bb7277e5149fe6d7",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "fa0e009d5bb85d7d8f883ed62ae5dc024a0720a1bdb247b2bb7277e5149fe6d7",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/README-plus.md": {
+      "source": "dta-sroc/validate/README-plus.md",
+      "sha256": "a0b2b5c0617c1bd882455c33c86c6d5c2c9c23ab0281ed1b1a4fa7551595ef58",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "a0b2b5c0617c1bd882455c33c86c6d5c2c9c23ab0281ed1b1a4fa7551595ef58",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/README.md": {
+      "source": "dta-sroc/validate/README.md",
+      "sha256": "2c8c3bc38cca0d4036bbfcb4027ef73e05bbc26d9eb2fbb950ba570dc891e64c",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "2c8c3bc38cca0d4036bbfcb4027ef73e05bbc26d9eb2fbb950ba570dc891e64c",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/replay-original-plus.mjs": {
+      "source": "dta-sroc/validate/replay-original-plus.mjs",
+      "sha256": "3ff0c2fab6942c8063d3bbbb764fa7057c85a77513ac9d3006e8ac6836b21bcc",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "3ff0c2fab6942c8063d3bbbb764fa7057c85a77513ac9d3006e8ac6836b21bcc",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/strict-p-differences.json": {
+      "source": "dta-sroc/validate/strict-p-differences.json",
+      "sha256": "352a65a1fca2287d9be832146359fe7b62cbd8019797ea234eb8dcc8a7411f22",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "352a65a1fca2287d9be832146359fe7b62cbd8019797ea234eb8dcc8a7411f22",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/test-plus.log": {
+      "source": "dta-sroc/validate/test-plus.log",
+      "sha256": "eaefb3257d64ca71c0b8b075a8841eceb2764eb0e60b7a3762c434c8eb2478ef",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "eaefb3257d64ca71c0b8b075a8841eceb2764eb0e60b7a3762c434c8eb2478ef",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/test-plus.mjs": {
+      "source": "dta-sroc/validate/test-plus.mjs",
+      "sha256": "72ed011c36d61492d5c6ed06a5f455086a8e0476b7bd058c2472f73538241152",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "72ed011c36d61492d5c6ed06a5f455086a8e0476b7bd058c2472f73538241152",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/corpus/paper_values.json": {
+      "source": "dta-sroc/validate/corpus/paper_values.json",
+      "sha256": "a3cc58b2018720d0467fc40bd673edd6259277802293d5c7b7e5438937a4dfbd",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "a3cc58b2018720d0467fc40bd673edd6259277802293d5c7b7e5438937a4dfbd",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/corpus/plus-raw-scale.json": {
+      "source": "dta-sroc/validate/corpus/plus-raw-scale.json",
+      "sha256": "33a4ac998a14fa86a900d0171979500fb37a5dc3e6c0b748c8ebb1fdbbcfb51f",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "33a4ac998a14fa86a900d0171979500fb37a5dc3e6c0b748c8ebb1fdbbcfb51f",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/corpus/plus-reference.json": {
+      "source": "dta-sroc/validate/corpus/plus-reference.json",
+      "sha256": "02ef07894df8f96f80c5dca2d0af0486f82a15d544de3a2b6d3367c977bfd03b",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "02ef07894df8f96f80c5dca2d0af0486f82a15d544de3a2b6d3367c977bfd03b",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/corpus/reference.json": {
+      "source": "dta-sroc/validate/corpus/reference.json",
+      "sha256": "c27829827ad9772c8a9886c682ad13ef8ff80a8016372052bbc0b91a48105d29",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "c27829827ad9772c8a9886c682ad13ef8ff80a8016372052bbc0b91a48105d29",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-0-cards.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-0-cards.png",
+      "sha256": "42b6cb483e3c3d4e52ae69829b476215013893839d6825ae9df2ea4b24dc9a7b",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "42b6cb483e3c3d4e52ae69829b476215013893839d6825ae9df2ea4b24dc9a7b",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-0-plot.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-0-plot.png",
+      "sha256": "067f5be43a0a86ab36918c9c3fb2cb01fe6ffe2d8d514d56e6ace25b03cb4acb",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "067f5be43a0a86ab36918c9c3fb2cb01fe6ffe2d8d514d56e6ace25b03cb4acb",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-0-table.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-0-table.png",
+      "sha256": "ce4ac964f30ff1da557430e95b74c1d357f2aa471450629334838211b49157bd",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "ce4ac964f30ff1da557430e95b74c1d357f2aa471450629334838211b49157bd",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-1-cards.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-1-cards.png",
+      "sha256": "64d1fdb3772fa38a3de30cf9fcadb920763d75784e4fcaed5da8db5607481af4",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "64d1fdb3772fa38a3de30cf9fcadb920763d75784e4fcaed5da8db5607481af4",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-1-plot.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-1-plot.png",
+      "sha256": "b5cc25c85304d8164a01e88a176badb439ce2ed0092e8c8c89916984f6ff3dd1",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "b5cc25c85304d8164a01e88a176badb439ce2ed0092e8c8c89916984f6ff3dd1",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-1-table.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-1-table.png",
+      "sha256": "d8f65aad0bf6fac964b6c390002c7f0e824f084cbe903920e7d4f4e91ef749c3",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "d8f65aad0bf6fac964b6c390002c7f0e824f084cbe903920e7d4f4e91ef749c3",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-2-cards.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-2-cards.png",
+      "sha256": "920e26b31c0cb26caf9a265b732ce1809fb03a08730b3ecebc7204a07798787a",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "920e26b31c0cb26caf9a265b732ce1809fb03a08730b3ecebc7204a07798787a",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-2-plot.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-2-plot.png",
+      "sha256": "80a4a6972e567933b249532bb14b4eccc396d15ef478531b2cd40e0ed6860982",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "80a4a6972e567933b249532bb14b4eccc396d15ef478531b2cd40e0ed6860982",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-2-table.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-2-table.png",
+      "sha256": "267de2dd52295d548fc6e1d2f9056f57b1fccd761bb5baed0d1be088b38eb5fd",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "267de2dd52295d548fc6e1d2f9056f57b1fccd761bb5baed0d1be088b38eb5fd",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-3-cards.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-3-cards.png",
+      "sha256": "a051d156b033c5ecc20ff2131c365ae4ee83693dad4733f4f9d1e180ebafd62b",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "a051d156b033c5ecc20ff2131c365ae4ee83693dad4733f4f9d1e180ebafd62b",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-3-plot.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-3-plot.png",
+      "sha256": "3ebb74896598ea08ecac1ba36030f11ea45521f4da3b86f10b22d35c9368de4e",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "3ebb74896598ea08ecac1ba36030f11ea45521f4da3b86f10b22d35c9368de4e",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-3-table.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-3-table.png",
+      "sha256": "83cf590993bc237851df3cd2fc267355adfae73bd7e48f31f86acd2029498e8b",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "83cf590993bc237851df3cd2fc267355adfae73bd7e48f31f86acd2029498e8b",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-4-cards.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-4-cards.png",
+      "sha256": "a03d3470c8984ccfdb27fb8725cee95b6e880a705c3db9144cde4a969ef0ee6d",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "a03d3470c8984ccfdb27fb8725cee95b6e880a705c3db9144cde4a969ef0ee6d",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-4-plot.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-4-plot.png",
+      "sha256": "408a2d839886d3a03497f9789b002b6ee44d4026d95a146e72121dc7f4e68018",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "408a2d839886d3a03497f9789b002b6ee44d4026d95a146e72121dc7f4e68018",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-4-table.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-4-table.png",
+      "sha256": "b90849e43d79445eb394f001cfd13f772f9f0536ff419f0ed33074012bd46f3b",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "b90849e43d79445eb394f001cfd13f772f9f0536ff419f0ed33074012bd46f3b",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-5-cards.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-5-cards.png",
+      "sha256": "d5327e33e6d2d08df43cef791206bae20b95f4f9531766b9e55cb059b08fabba",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "d5327e33e6d2d08df43cef791206bae20b95f4f9531766b9e55cb059b08fabba",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-5-plot.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-5-plot.png",
+      "sha256": "a42a6894abd09f14ac60ed49f609b08210389005a9c3f2fd08ca8e39b692b719",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "a42a6894abd09f14ac60ed49f609b08210389005a9c3f2fd08ca8e39b692b719",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-5-table.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-5-table.png",
+      "sha256": "110f8881e4b0b4c05efc70ae56b2c5650032c7e78f368496f3ce63545d4dd4c0",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "110f8881e4b0b4c05efc70ae56b2c5650032c7e78f368496f3ce63545d4dd4c0",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-6-cards.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-6-cards.png",
+      "sha256": "9eebab5025932ff7bb6f0bf64c9bd73cab8c8556406b552f2ba7726bd02a5712",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "9eebab5025932ff7bb6f0bf64c9bd73cab8c8556406b552f2ba7726bd02a5712",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-6-plot.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-6-plot.png",
+      "sha256": "66f4ddde39004d41196c890b42e9058f0ae95231f3b419196e36074f99aed0ae",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "66f4ddde39004d41196c890b42e9058f0ae95231f3b419196e36074f99aed0ae",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-6-table.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-6-table.png",
+      "sha256": "20f4cfecc8366caad4583ec28cc824eb7119f2acd3c4a401a7ee9ba759ee86db",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "20f4cfecc8366caad4583ec28cc824eb7119f2acd3c4a401a7ee9ba759ee86db",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-7-cards.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-7-cards.png",
+      "sha256": "8e3c8b9b0ce19b6c4b35b04b5ea50c473cc79c20a06caa426103f59d4c6889a3",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "8e3c8b9b0ce19b6c4b35b04b5ea50c473cc79c20a06caa426103f59d4c6889a3",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-7-plot.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-7-plot.png",
+      "sha256": "0160048555baa40de41846bc8e5ee08f87697a783a7e00b1361de73f4ffe853e",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "0160048555baa40de41846bc8e5ee08f87697a783a7e00b1361de73f4ffe853e",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-7-table.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-7-table.png",
+      "sha256": "a4af775caaf957ce121f93a3a72b904232086ebeb9c36c856054c92754a66c5b",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "a4af775caaf957ce121f93a3a72b904232086ebeb9c36c856054c92754a66c5b",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-8-cards.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-8-cards.png",
+      "sha256": "3e66065a7231ff3a41f4334651bd1a36800d829a9ddef8ec6817dc79c066c673",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "3e66065a7231ff3a41f4334651bd1a36800d829a9ddef8ec6817dc79c066c673",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-8-plot.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-8-plot.png",
+      "sha256": "05934bdb8e46a5fdf4ab78ae334846acedaa1439f57b1fe639226016f9cb955c",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "05934bdb8e46a5fdf4ab78ae334846acedaa1439f57b1fe639226016f9cb955c",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-8-table.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-8-table.png",
+      "sha256": "a77e4f56e4df251ebdd925a5707b52f7f07d7357d5c616b468ffa33769bb759c",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "a77e4f56e4df251ebdd925a5707b52f7f07d7357d5c616b468ffa33769bb759c",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-9-cards.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-9-cards.png",
+      "sha256": "cadd5b8ca3e48feb0f324fcaa890628f5b957ac6549256e8d2f6224cd75e052c",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "cadd5b8ca3e48feb0f324fcaa890628f5b957ac6549256e8d2f6224cd75e052c",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-9-plot.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-9-plot.png",
+      "sha256": "40db75bd20f5ade299f76ef713bc41156bc63e4f9508de8021222b2d5f4372b6",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "40db75bd20f5ade299f76ef713bc41156bc63e4f9508de8021222b2d5f4372b6",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/dta-sroc-9-table.png": {
+      "source": "dta-sroc/validate/pixel-references/dta-sroc-9-table.png",
+      "sha256": "ac7e68ab8f8bca1450a14bc65e581c36462bda4cf8aacffffd256d2b604f2cd8",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "ac7e68ab8f8bca1450a14bc65e581c36462bda4cf8aacffffd256d2b604f2cd8",
+      "privacy_redacted": false
+    },
+    "validation-plus/dta-sroc/validate/pixel-references/REFERENCE.json": {
+      "source": "dta-sroc/validate/pixel-references/REFERENCE.json",
+      "sha256": "2f1d3cc67a24910d3569b39870716d8f21791d23c3c7e9a2f78af434aa7e3ae9",
+      "reasons": [
+        "unchanged upstream extras validation/support/evidence"
+      ],
+      "upstream_blob_sha256": "2f1d3cc67a24910d3569b39870716d8f21791d23c3c7e9a2f78af434aa7e3ae9",
+      "privacy_redacted": false
+    }
+  },
+  "resync_source_commit": "1cb3f8409c7af75ed41f7e1811f9c502f900fc79",
+  "resync_source": "Supplied allmeta v1.8.0 release checkout; byte-for-byte working-tree copies, with no newline conversion.",
+  "blob_verification": "All mapped Git blobs restored and checked before deterministic privacy redaction; sha256 describes published bytes, upstream_blob_sha256 describes release bytes.",
+  "privacy_derivatives": [
+    "app/hub/shared/vendor/jspdf.min.js",
+    "app/r-shiny/shinylive/webr/R.wasm",
+    "app/r-shiny/shinylive/webr/vfs/usr/lib/R/library/translations/DESCRIPTION",
+    "app/r-shiny/shinylive/webr/webr-worker.js",
+    "validation-plus/dta-sroc/validate/generate-plus-raw.log",
+    "validation-plus/dta-sroc/validate/generate-plus.log",
+    "validation-plus/dta-sroc/validate/inspect-plus.log",
+    "validation-plus/dta-sroc/validate/inventory-plus.log",
+    "validation-plus/dta-sroc/validate/live-plus.log"
+  ],
+  "copied_commit": "1cb3f8409c7af75ed41f7e1811f9c502f900fc79"
+}
