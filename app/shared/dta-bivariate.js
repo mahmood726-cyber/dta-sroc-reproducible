@@ -387,9 +387,31 @@
   // region = ellipse of Ψ + vcov (plot.reitsma(predict = TRUE)); centred at the logit summary point,
   // radius √qchisq(.95, 2), back-transformed. kind: "confidence" (default) | "prediction".
   function regionEllipse(f, kind, n) {
-    n = n || 100;
-    var C = kind === "prediction" ? madd(f.Psi, f.covMu) : f.covMu, c0 = f.muLogitSe, c1 = f.muLogitFPR;
-    var L00 = Math.sqrt(C[0][0]), L10 = C[1][0] / L00, L11 = Math.sqrt(Math.max(0, C[1][1] - L10 * L10)), pts = [];
+    if (n === undefined || n === null) n = 100;
+    if (!Number.isSafeInteger(n) || n < 3 || (kind !== "prediction" && kind !== "confidence"))
+      throw new RangeError("SROC region requires a valid kind and at least three points");
+    if (!f || !Number.isFinite(f.muLogitSe) || !Number.isFinite(f.muLogitFPR))
+      throw new RangeError("SROC region requires finite summary logits");
+    var C = kind === "prediction" ? madd(f.Psi, f.covMu) : f.covMu;
+    if (!Array.isArray(C) || C.length !== 2 || !C.every(function(r) {
+      return Array.isArray(r) && r.length === 2 && r.every(Number.isFinite);
+    })) throw new RangeError("SROC region covariance must be finite 2x2");
+    var x = C[0][0], y = C[1][1], z = C[1][0];
+    var scale = Math.max(1, Math.abs(x), Math.abs(y), Math.abs(z), Math.abs(C[0][1]));
+    if (Math.abs(z - C[0][1]) > 1e-12 * scale || x < 0 || y < 0 ||
+        z * z > x * y + 1e-12 * scale * scale)
+      throw new RangeError("SROC region covariance must be symmetric positive semidefinite");
+    var L00 = Math.sqrt(x), L10, L11;
+    if (L00 === 0) {
+      if (z !== 0) throw new RangeError("Invalid zero-variance covariance");
+      L10 = 0; L11 = Math.sqrt(y);
+    } else {
+      L10 = z / L00;
+      var residual = y - L10 * L10;
+      if (residual < -1e-12 * scale) throw new RangeError("Invalid covariance factorization");
+      L11 = Math.sqrt(Math.max(0, residual));
+    }
+    var pts = [], c0 = f.muLogitSe, c1 = f.muLogitFPR;
     for (var i = 0; i <= n; i++) {
       var th = 2 * Math.PI * i / n, a = _R95 * Math.cos(th), b = _R95 * Math.sin(th);
       pts.push({ fpr: _expit(c1 + L10 * a + L11 * b), tpr: _expit(c0 + L00 * a) });
